@@ -1,0 +1,6493 @@
+/* ! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+[hidden],
+template {
+  display: none;
+}
+.atriumComponentContentWrapper.bg-transparent,
+.bg-transparent {
+  background-color: transparent;
+}
+.atriumComponentContentWrapper.bg-alto,
+.bg-alto {
+  background-color: #d7d7d7;
+}
+.color-alto {
+  color: #d7d7d7;
+}
+.atriumComponentContentWrapper.bg-arctica,
+.bg-arctica {
+  background-color: #e5eef5;
+}
+.color-arctica {
+  color: #e5eef5;
+}
+.atriumComponentContentWrapper.bg-checkbox-bg,
+.bg-checkbox-bg {
+  background-color: #eaf7f5;
+}
+.color-checkbox-bg {
+  color: #eaf7f5;
+}
+.atriumComponentContentWrapper.bg-concrete,
+.bg-concrete {
+  background-color: #f5f5f5;
+}
+.color-concrete {
+  color: #f5f5f5;
+}
+.atriumComponentContentWrapper.bg-cream,
+.bg-cream {
+  background-color: #f5eee6;
+}
+.color-cream {
+  color: #f5eee6;
+}
+.atriumComponentContentWrapper.bg-error-red,
+.bg-error-red {
+  background-color: #bf0000;
+}
+.color-error-red {
+  color: #bf0000;
+}
+.atriumComponentContentWrapper.bg-error-yellow,
+.bg-error-yellow {
+  background-color: #f3bc42;
+}
+.color-error-yellow {
+  color: #f3bc42;
+}
+.atriumComponentContentWrapper.bg-error,
+.bg-error {
+  background-color: #ffe4e4;
+}
+.color-error {
+  color: #ffe4e4;
+}
+.atriumComponentContentWrapper.bg-ginger,
+.bg-ginger {
+  background-color: #ebdecd;
+}
+.color-ginger {
+  color: #ebdecd;
+}
+.atriumComponentContentWrapper.bg-glacier,
+.bg-glacier {
+  background-color: #bfd6eb;
+}
+.color-glacier {
+  color: #bfd6eb;
+}
+.atriumComponentContentWrapper.bg-header-text,
+.bg-header-text {
+  background-color: #68747a;
+}
+.color-header-text {
+  color: #68747a;
+}
+.atriumComponentContentWrapper.bg-hover-green,
+.bg-hover-green {
+  background-color: #86cec2;
+}
+.color-hover-green {
+  color: #86cec2;
+}
+.atriumComponentContentWrapper.bg-interactive-light,
+.bg-interactive-light {
+  background-color: #e9f5f3;
+}
+.color-interactive-light {
+  color: #e9f5f3;
+}
+.atriumComponentContentWrapper.bg-interactive-medium,
+.bg-interactive-medium {
+  background-color: #78c7ba;
+}
+.color-interactive-medium {
+  color: #78c7ba;
+}
+.atriumComponentContentWrapper.bg-interactive,
+.bg-interactive {
+  background-color: #23a48f;
+}
+.color-interactive {
+  color: #23a48f;
+}
+.atriumComponentContentWrapper.bg-lake,
+.bg-lake {
+  background-color: #92b8d6;
+}
+.color-lake {
+  color: #92b8d6;
+}
+.atriumComponentContentWrapper.bg-light-rock,
+.bg-light-rock {
+  background-color: #a6b7c0;
+}
+.color-light-rock {
+  color: #a6b7c0;
+}
+.atriumComponentContentWrapper.bg-lime,
+.bg-lime {
+  background-color: #f4e2b7;
+}
+.color-lime {
+  color: #f4e2b7;
+}
+.atriumComponentContentWrapper.bg-link,
+.bg-link {
+  background-color: #13857b;
+}
+.color-link {
+  color: #13857b;
+}
+.atriumComponentContentWrapper.bg-mango,
+.bg-mango {
+  background-color: #f4d07c;
+}
+.color-mango {
+  color: #f4d07c;
+}
+.atriumComponentContentWrapper.bg-midnight,
+.bg-midnight {
+  background-color: #362f31;
+}
+.color-midnight {
+  color: #362f31;
+}
+.atriumComponentContentWrapper.bg-mint,
+.bg-mint {
+  background-color: #e5f0ea;
+}
+.color-mint {
+  color: #e5f0ea;
+}
+.atriumComponentContentWrapper.bg-mountain,
+.bg-mountain {
+  background-color: #5c6a73;
+}
+.color-mountain {
+  color: #5c6a73;
+}
+.atriumComponentContentWrapper.bg-peach,
+.bg-peach {
+  background-color: #ffb3b3;
+}
+.color-peach {
+  color: #ffb3b3;
+}
+.atriumComponentContentWrapper.bg-rock,
+.bg-rock {
+  background-color: #8998a1;
+}
+.color-rock {
+  color: #8998a1;
+}
+.atriumComponentContentWrapper.bg-sage,
+.bg-sage {
+  background-color: #c6d9ce;
+}
+.color-sage {
+  color: #c6d9ce;
+}
+.atriumComponentContentWrapper.bg-salmon,
+.bg-salmon {
+  background-color: #f45f65;
+}
+.color-salmon {
+  color: #f45f65;
+}
+.atriumComponentContentWrapper.bg-spring,
+.bg-spring {
+  background-color: #8bbea1;
+}
+.color-spring {
+  color: #8bbea1;
+}
+.atriumComponentContentWrapper.bg-swiss-logo,
+.bg-swiss-logo {
+  background-color: #e60000;
+}
+.color-swiss-logo {
+  color: #e60000;
+}
+.atriumComponentContentWrapper.bg-tulip,
+.bg-tulip {
+  background-color: #fe8282;
+}
+.color-tulip {
+  color: #fe8282;
+}
+.atriumComponentContentWrapper.bg-warning,
+.bg-warning {
+  background-color: #fff3d8;
+}
+.color-warning {
+  color: #fff3d8;
+}
+.atriumComponentContentWrapper.bg-white,
+.bg-white {
+  background-color: #fff;
+}
+.color-white {
+  color: #fff;
+}
+.atriumComponentContentWrapper.bg-slick-dots,
+.bg-slick-dots {
+  background-color: #d2d6d9;
+}
+.color-slick-dots {
+  color: #d2d6d9;
+}
+.background--festhypothek {
+  background-image: url(../assets/images/headings-bg/background-festhypothek-7e340de47c.png);
+}
+.background--homepage {
+  background-image: url(../assets/images/headings-bg/background-homepage-f2202ba17f.png);
+}
+.background--hypothekarzinsen {
+  background-image: url(../assets/images/headings-bg/background-hypothekarzinsen-4a892b1aab.png);
+}
+.background--qa {
+  background-image: url(../assets/images/headings-bg/background-qa-21239ebd40.png);
+}
+.illustration {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+}
+.illustration--4-schritten {
+  background-image: url(../assets/images/illustrations/4-schritten-f91bec65b6.png);
+}
+.illustration--advisory-page-illustration {
+  background-image: url(../assets/images/illustrations/advisory-page-illustration-487fbc5156.png);
+}
+.illustration--client-advisors {
+  background-image: url(../assets/images/illustrations/client-advisors-c6212407f9.png);
+}
+.illustration--cookies {
+  background-image: url(../assets/images/illustrations/cookies-d291a1d265.png);
+}
+.illustration--error-not-found {
+  background-image: url(../assets/images/illustrations/error-not-found-bd0ec14f64.png);
+}
+.illustration--error-offline {
+  background-image: url(../assets/images/illustrations/error-offline-e3e8139d35.png);
+}
+.illustration--error-red-case {
+  background-image: url(../assets/images/illustrations/error-red-case-ee8739158f.png);
+}
+.illustration--faq-header {
+  background-image: url(../assets/images/illustrations/faq-header-34a43f0db2.png);
+}
+.illustration--festhypothek-header {
+  background-image: url(../assets/images/illustrations/festhypothek-header-2374c652ba.png);
+}
+.illustration--festhypothek-module-1 {
+  background-image: url(../assets/images/illustrations/festhypothek-module-1-a47c1c78b5.svg);
+}
+.illustration--festhypothek-module-2 {
+  background-image: url(../assets/images/illustrations/festhypothek-module-2-c475777a6d.svg);
+}
+.illustration--festhypothek-was {
+  background-image: url(../assets/images/illustrations/festhypothek-was-04b2d10bfe.png);
+}
+.illustration--festhypothek-wie {
+  background-image: url(../assets/images/illustrations/festhypothek-wie-1b55a814ab.png);
+}
+.illustration--geo-targeting-desktop {
+  background-image: url(../assets/images/illustrations/geo-targeting-desktop-bf27d8b809.png);
+}
+.illustration--green-mortgage-home {
+  background-image: url(../assets/images/illustrations/green-mortgage-home-ff928401fc.png);
+}
+.illustration--green-mortgage-ipre {
+  background-image: url(../assets/images/illustrations/green-mortgage-ipre-df11fb912c.svg);
+}
+.illustration--green-mortgage-logo {
+  background-image: url(../assets/images/illustrations/green-mortgage-logo-3d327e0943.png);
+}
+.illustration--group-humans {
+  background-image: url(../assets/images/illustrations/group-humans-29d3624fb0.png);
+}
+.illustration--homepage-minuten {
+  background-image: url(../assets/images/illustrations/homepage-minuten-b39bb8cfd5.png);
+}
+.illustration--homepage-what-is {
+  background-image: url(../assets/images/illustrations/homepage-what-is-b1a467ac95.png);
+}
+.illustration--hypothekarzinsen-header {
+  background-image: url(../assets/images/illustrations/hypothekarzinsen-header-8bb7641617.png);
+}
+.illustration--hypothekenvergleich-airplane {
+  background-image: url(../assets/images/illustrations/hypothekenvergleich-airplane-01cf2c8c24.png);
+}
+.illustration--hypothekenvergleich-header {
+  background-image: url(../assets/images/illustrations/hypothekenvergleich-header-2140d31e73.png);
+}
+.illustration--illustration-appraisal-desktop {
+  background-image: url(../assets/images/illustrations/illustration-appraisal-desktop-e18b0c8223.png);
+}
+.illustration--illustration-appraisal-results-desktop {
+  background-image: url(../assets/images/illustrations/illustration-appraisal-results-desktop-09ef7a41d5.png);
+}
+.illustration--illustration-appraisal-results-mobile {
+  background-image: url(../assets/images/illustrations/illustration-appraisal-results-mobile-2c76b5a910.png);
+}
+.illustration--illustration-borrowers-app {
+  background-image: url(../assets/images/illustrations/illustration-borrowers-app-a9b064cb32.png);
+}
+.illustration--illustration-borrowers-office-locator {
+  background-image: url(../assets/images/illustrations/illustration-borrowers-office-locator-da3dd22e98.png);
+}
+.illustration--illustration-borrowers-sent {
+  background-image: url(../assets/images/illustrations/illustration-borrowers-sent-dca7202c30.png);
+}
+.illustration--illustration-calculator {
+  background-image: url(../assets/images/illustrations/illustration-calculator-96878f69d1.png);
+}
+.illustration--illustration-callback-desktop {
+  background-image: url(../assets/images/illustrations/illustration-callback-desktop-3396152ad9.png);
+}
+.illustration--illustration-callback-mobile {
+  background-image: url(../assets/images/illustrations/illustration-callback-mobile-b636c2e2f4.png);
+}
+.illustration--illustration-desktop-hypothek {
+  background-image: url(../assets/images/illustrations/illustration-desktop-hypothek-2554de56d7.png);
+}
+.illustration--illustration-finanzierungscertifikat-desktop {
+  background-image: url(../assets/images/illustrations/illustration-finanzierungscertifikat-desktop-cf3b445a05.png);
+}
+.illustration--illustration-finanzierungscertifikat-mobile {
+  background-image: url(../assets/images/illustrations/illustration-finanzierungscertifikat-mobile-32d9503e84.png);
+}
+.illustration--illustration-home-owner-desktop {
+  background-image: url(../assets/images/illustrations/illustration-home-owner-desktop-1cc3da4a4a.png);
+}
+.illustration--illustration-home-owner-mobile {
+  background-image: url(../assets/images/illustrations/illustration-home-owner-mobile-688c7c7b62.png);
+}
+.illustration--illustration-hypothek {
+  background-image: url(../assets/images/illustrations/illustration-hypothek-d85ec3567b.png);
+}
+.illustration--illustration-hypothekenzins {
+  background-image: url(../assets/images/illustrations/illustration-hypothekenzins-3b25528a06.png);
+}
+.illustration--illustration-ipre-anlagekriterien-mobile {
+  background-image: url(../assets/images/illustrations/illustration-ipre-anlagekriterien-mobile-b658db3582.png);
+}
+.illustration--illustration-ipre-callback {
+  background-image: url(../assets/images/illustrations/illustration-ipre-callback-48835065d8.png);
+}
+.illustration--illustration-ipre-faq-desktop {
+  background-image: url(../assets/images/illustrations/illustration-ipre-faq-desktop-995f1f614d.png);
+}
+.illustration--illustration-ipre-hypothek-mobile {
+  background-image: url(../assets/images/illustrations/illustration-ipre-hypothek-mobile-40eeccafe2.png);
+}
+.illustration--illustration-ipre-kontakt-desktop {
+  background-image: url(../assets/images/illustrations/illustration-ipre-kontakt-desktop-64e65ed3f3.png);
+}
+.illustration--illustration-ipre-media-desktop {
+  background-image: url(../assets/images/illustrations/illustration-ipre-media-desktop-a335fc2c2e.png);
+}
+.illustration--illustration-ipre-mehrfamilienhaus {
+  background-image: url(../assets/images/illustrations/illustration-ipre-mehrfamilienhaus-7f645bf791.png);
+}
+.illustration--illustration-ipre-needed-mortgage {
+  background-image: url(../assets/images/illustrations/illustration-ipre-needed-mortgage-a07d81227f.png);
+}
+.illustration--illustration-ipre-offline {
+  background-image: url(../assets/images/illustrations/illustration-ipre-offline-6d7d256e4f.png);
+}
+.illustration--illustration-landing-page-vp {
+  background-image: url(../assets/images/illustrations/illustration-landing-page-vp-4760670a86.png);
+}
+.illustration--illustration-phone-info {
+  background-image: url(../assets/images/illustrations/illustration-phone-info-e92ddc95c4.png);
+}
+.illustration--illustration-submission-failed {
+  background-image: url(../assets/images/illustrations/illustration-submission-failed-f53acd01b0.png);
+}
+.illustration--illustration-technical-error {
+  background-image: url(../assets/images/illustrations/illustration-technical-error-ff636c4ebd.png);
+}
+.illustration--illustration-video-page-desktop {
+  background-image: url(../assets/images/illustrations/illustration-video-page-desktop-e242d96813.png);
+}
+.illustration--illustration-video-page-mobile {
+  background-image: url(../assets/images/illustrations/illustration-video-page-mobile-86f1a86d71.png);
+}
+.illustration--illustration-what-is-key4-header-mobile {
+  background-image: url(../assets/images/illustrations/illustration-what-is-key4-header-mobile-489d5d17af.png);
+}
+.illustration--illustration-zinsprognose-desktop {
+  background-image: url(../assets/images/illustrations/illustration-zinsprognose-desktop-c950a4858a.png);
+}
+.illustration--illustration-zinsprognose-mobile {
+  background-image: url(../assets/images/illustrations/illustration-zinsprognose-mobile-2dc61b2c36.png);
+}
+.illustration--illustratiopn-what-is-key4-header-desktop {
+  background-image: url(../assets/images/illustrations/illustration-what-is-key4-header-desktop-7c994a8528.png);
+}
+.illustration--immobilienwert {
+  background-image: url(../assets/images/illustrations/immobilienwert-615a2bd69e.png);
+}
+.illustration--interest-cream-desktop {
+  background-image: url(../assets/images/illustrations/interest-cream-desktop-cab0ea6130.png);
+}
+.illustration--interest-cream-mobile {
+  background-image: url(../assets/images/illustrations/interest-cream-mobile-cfc4ee0e26.png);
+}
+.illustration--ipre-anlagekriterien-header {
+  background-image: url(../assets/images/illustrations/ipre-anlagekriterien-header-7cf07e7826.png);
+}
+.illustration--ipre-hypothek-header {
+  background-image: url(../assets/images/illustrations/ipre-hypothek-header-227f45cbdb.png);
+}
+.illustration--ipre-illustration-faq-mobile {
+  background-image: url(../assets/images/illustrations/ipre-illustration-faq-mobile-ddd8978c3c.png);
+}
+.illustration--kontakt-header {
+  background-image: url(../assets/images/illustrations/kontakt-header-8651e0e8c8.png);
+}
+.illustration--laufzeiten-cream {
+  background-image: url(../assets/images/illustrations/laufzeiten-cream-165d94609e.png);
+}
+.illustration--lernpfade-dream {
+  background-image: url(../assets/images/illustrations/lernpfade-dream-47f5e36e4b.svg);
+}
+.illustration--lernpfade-finance {
+  background-image: url(../assets/images/illustrations/lernpfade-finance-aebe4424b5.svg);
+}
+.illustration--lernpfade-mortgage {
+  background-image: url(../assets/images/illustrations/lernpfade-mortgage-f0174136ce.svg);
+}
+.illustration--libor-hypothek {
+  background-image: url(../assets/images/illustrations/libor-hypothek-0cfa69f08e.png);
+}
+.illustration--media-illustration {
+  background-image: url(../assets/images/illustrations/media-illustration-a0e253f183.png);
+}
+.illustration--minuten-beige {
+  background-image: url(../assets/images/illustrations/minuten-beige-5e0e9487c4.png);
+}
+.illustration--mortgage-comparison {
+  background-image: url(../assets/images/illustrations/mortgage-comparison-537dea1947.png);
+}
+.illustration--mortgage {
+  background-image: url(../assets/images/illustrations/mortgage-3133fd7317.png);
+}
+.illustration--nachhaltig {
+  background-image: url(../assets/images/illustrations/nachhaltig-926bc2c233.svg);
+}
+.illustration--sustainability {
+  background-image: url(../assets/images/illustrations/sustainability-662a45ec8e.svg);
+}
+.illustration--nhb-reminder-confirmation-screen-desktop {
+  background-image: url(../assets/images/illustrations/nhb-reminder-confirmation-screen-desktop-b9b27d29aa.png);
+}
+.illustration--nhb-reminder-desktop {
+  background-image: url(../assets/images/illustrations/nhb-reminder-desktop-b0474b752f.png);
+}
+.illustration--nhb-reminder-second-desktop {
+  background-image: url(../assets/images/illustrations/nhb-reminder-second-desktop-d9213ba5a0.png);
+}
+.illustration--novac-logo {
+  background-image: url(../assets/images/illustrations/novac-logo-afc996e99c.png);
+}
+.illustration--partner-header {
+  background-image: url(../assets/images/illustrations/partner-header-a19a5b2057.png);
+}
+.illustration--presse-header {
+  background-image: url(../assets/images/illustrations/presse-header-47e5c0adaa.png);
+}
+.illustration--presse-medien1 {
+  background-image: url(../assets/images/illustrations/presse-medien1-c91554a53d.png);
+}
+.illustration--presse-medien2 {
+  background-image: url(../assets/images/illustrations/presse-medien2-bbc53e3128.png);
+}
+.illustration--product-hypotek-ablosen-header {
+  background-image: url(../assets/images/illustrations/product-hypotek-ablosen-header-4b6851acde.png);
+}
+.illustration--product-hypotek-ablosen-small2 {
+  background-image: url(../assets/images/illustrations/product-hypotek-ablosen-small2-fa840dca5c.png);
+}
+.illustration--product-hypotek-ablosen {
+  background-image: url(../assets/images/illustrations/product-hypotek-ablosen-95b41020c0.png);
+}
+.illustration--product-libor-hypothek-header {
+  background-image: url(../assets/images/illustrations/product-libor-hypothek-header-ead49575e4.png);
+}
+.illustration--product-libor-hypothek-small {
+  background-image: url(../assets/images/illustrations/product-libor-hypothek-small-43f5bec75f.png);
+}
+.illustration--product-online-hypothek--header {
+  background-image: url(../assets/images/illustrations/product-online-hypothek--header-f6d9e6361a.png);
+}
+.illustration--product-online-hypothek--small {
+  background-image: url(../assets/images/illustrations/product-online-hypothek--small-9fc8a0a296.png);
+}
+.illustration--product-saron-header-v2 {
+  background-image: url(../assets/images/illustrations/product-saron-header-v2-baed3d7520.svg);
+}
+.illustration--product-saron-header {
+  background-image: url(../assets/images/illustrations/product-saron-header-2687ee8f54.png);
+}
+.illustration--product-saron-small {
+  background-image: url(../assets/images/illustrations/product-saron-small-d3ec545fe9.png);
+}
+.illustration--qa-abschliessen {
+  background-image: url(../assets/images/illustrations/qa-abschliessen-c9d515d650.png);
+}
+.illustration--qa-allgemein {
+  background-image: url(../assets/images/illustrations/qa-allgemein-a36b706fab.png);
+}
+.illustration--qa-beratung {
+  background-image: url(../assets/images/illustrations/qa-beratung-f599dc46b5.png);
+}
+.illustration--qa-cycle {
+  background-image: url(../assets/images/illustrations/qa-cycle-453e78c2b7.png);
+}
+.illustration--qa-desktop-abschliessen-2 {
+  background-image: url(../assets/images/illustrations/qa-desktop-abschliessen-2-8a661a5618.png);
+}
+.illustration--qa-desktop-allgemein-2 {
+  background-image: url(../assets/images/illustrations/qa-desktop-allgemein-2-7c8cbb15ff.png);
+}
+.illustration--qa-desktop-beratung-2 {
+  background-image: url(../assets/images/illustrations/qa-desktop-beratung-2-c13449a4fc.png);
+}
+.illustration--qa-desktop-cycle-2 {
+  background-image: url(../assets/images/illustrations/qa-desktop-cycle-2-fe0e284264.png);
+}
+.illustration--qa-desktop-nach-beratung-2 {
+  background-image: url(../assets/images/illustrations/qa-desktop-nach-beratung-2-8f60c68dc4.png);
+}
+.illustration--qa-nach-beratung {
+  background-image: url(../assets/images/illustrations/qa-nach-beratung-f84f3d791c.png);
+}
+.illustration--ratgeber-teaser {
+  background-image: url(../assets/images/illustrations/ratgeber-teaser-a00e0c10b4.png);
+}
+.illustration--saron-eignet {
+  background-image: url(../assets/images/illustrations/saron-eignet-b1f3f0b47e.png);
+}
+.illustration--saron-header {
+  background-image: url(../assets/images/illustrations/saron-header-aa1134cf64.png);
+}
+.illustration--saron-was {
+  background-image: url(../assets/images/illustrations/saron-was-9fbcf8cba9.png);
+}
+.illustration--saron-wie {
+  background-image: url(../assets/images/illustrations/saron-wie-db3245139f.png);
+}
+.illustration--ubs-and-key4 {
+  background-image: url(../assets/images/illustrations/ubs-and-key4-92d7fc19a9.png);
+}
+.illustration--usp-advisory-cream {
+  background-image: url(../assets/images/illustrations/usp-advisory-cream-dd0002fc21.png);
+}
+.illustration--usp-advisory {
+  background-image: url(../assets/images/illustrations/usp-advisory-0a8a82b0c4.png);
+}
+.illustration--usp-offer-cream {
+  background-image: url(../assets/images/illustrations/usp-offer-cream-6e9589e422.png);
+}
+.illustration--usp-offer {
+  background-image: url(../assets/images/illustrations/usp-offer-1774dbc46a.png);
+}
+.illustration--usp-zinsen {
+  background-image: url(../assets/images/illustrations/usp-zinsen-80f40018f8.png);
+}
+.illustration--video-festhypothek-erklart {
+  background-image: url(../assets/images/illustrations/video-festhypothek-erklart-841db6f393.svg);
+}
+.illustration--video-illustration-borrower {
+  background-image: url(../assets/images/illustrations/video-illustration-borrower-72b2e1f89f.png);
+}
+.illustration--video-illustration-Investor-key4 {
+  background-image: url(../assets/images/illustrations/video-what-is-key-4-ddf7a1419e.png);
+}
+.illustration--video-illustration-investor {
+  background-image: url(../assets/images/illustrations/video-illustration-investor-7c0730fd54.png);
+}
+.illustration--video-saron-v2 {
+  background-image: url(../assets/images/illustrations/video-saron-v2-c842616e1f.svg);
+}
+.illustration--video-was-ist-bei-key4-anders {
+  background-image: url(../assets/images/illustrations/video-was-ist-bei-key4-anders-5d8809dcc5.png);
+}
+.illustration--video-what-is-key-4 {
+  background-image: url(../assets/images/illustrations/video-what-is-key-4-ddf7a1419e.png);
+}
+.illustration--video-wie-funktioniert-key4 {
+  background-image: url(../assets/images/illustrations/video-wie-funktioniert-key4-d569388245.png);
+}
+.illustration--video-wie-verlangere-ich-meine-hypothek-mit-key4 {
+  background-image: url(../assets/images/illustrations/video-wie-verlangere-ich-meine-hypothek-mit-key4-2412452c69.png);
+}
+.illustration--was-ist-eine-hypothek {
+  background-image: url(../assets/images/illustrations/was-ist-eine-hypothek-8407547927.png);
+}
+.illustration--welche {
+  background-image: url(../assets/images/illustrations/welche-231f213f27.png);
+}
+.illustration--what-is-a-mortgage {
+  background-image: url(../assets/images/illustrations/what-is-a-mortgage-68dfe90e55.png);
+}
+.illustration--what-is-key4-01 {
+  background-image: url(../assets/images/illustrations/what-is-key4-01-8d97540628.png);
+}
+.illustration--what-is-key4-02 {
+  background-image: url(../assets/images/illustrations/what-is-key4-02-d194c20701.png);
+}
+.illustration--what-is-key4-03 {
+  background-image: url(../assets/images/illustrations/what-is-key4-03-c54904beb4.png);
+}
+.illustration--what-is-key4-anbieter {
+  background-image: url(../assets/images/illustrations/what-is-key4-anbieter-19f63642cb.png);
+}
+.illustration--what-is-key4-berater {
+  background-image: url(../assets/images/illustrations/what-is-key4-berater-745580148a.png);
+}
+@media (max-width: 767px) {
+  .illustration--4-schritten--mobile {
+    background-image: url(../assets/images/illustrations/4-schritten-f91bec65b6.png);
+  }
+  .illustration--advisory-page-illustration--mobile {
+    background-image: url(../assets/images/illustrations/advisory-page-illustration-487fbc5156.png);
+  }
+  .illustration--client-advisors--mobile {
+    background-image: url(../assets/images/illustrations/client-advisors-c6212407f9.png);
+  }
+  .illustration--cookies--mobile {
+    background-image: url(../assets/images/illustrations/cookies-d291a1d265.png);
+  }
+  .illustration--error-not-found--mobile {
+    background-image: url(../assets/images/illustrations/error-not-found-bd0ec14f64.png);
+  }
+  .illustration--error-offline--mobile {
+    background-image: url(../assets/images/illustrations/error-offline-e3e8139d35.png);
+  }
+  .illustration--error-red-case--mobile {
+    background-image: url(../assets/images/illustrations/error-red-case-ee8739158f.png);
+  }
+  .illustration--faq-header--mobile {
+    background-image: url(../assets/images/illustrations/faq-header-34a43f0db2.png);
+  }
+  .illustration--festhypothek-header--mobile {
+    background-image: url(../assets/images/illustrations/festhypothek-header-2374c652ba.png);
+  }
+  .illustration--festhypothek-module-1--mobile {
+    background-image: url(../assets/images/illustrations/festhypothek-module-1-a47c1c78b5.svg);
+  }
+  .illustration--festhypothek-module-2--mobile {
+    background-image: url(../assets/images/illustrations/festhypothek-module-2-c475777a6d.svg);
+  }
+  .illustration--festhypothek-was--mobile {
+    background-image: url(../assets/images/illustrations/festhypothek-was-04b2d10bfe.png);
+  }
+  .illustration--festhypothek-wie--mobile {
+    background-image: url(../assets/images/illustrations/festhypothek-wie-1b55a814ab.png);
+  }
+  .illustration--geo-targeting-desktop--mobile {
+    background-image: url(../assets/images/illustrations/geo-targeting-desktop-bf27d8b809.png);
+  }
+  .illustration--green-mortgage-home--mobile {
+    background-image: url(../assets/images/illustrations/green-mortgage-home-ff928401fc.png);
+  }
+  .illustration--green-mortgage-ipre--mobile {
+    background-image: url(../assets/images/illustrations/green-mortgage-ipre-df11fb912c.svg);
+  }
+  .illustration--green-mortgage-logo--mobile {
+    background-image: url(../assets/images/illustrations/green-mortgage-logo-3d327e0943.png);
+  }
+  .illustration--group-humans--mobile {
+    background-image: url(../assets/images/illustrations/group-humans-29d3624fb0.png);
+  }
+  .illustration--homepage-minuten--mobile {
+    background-image: url(../assets/images/illustrations/homepage-minuten-b39bb8cfd5.png);
+  }
+  .illustration--homepage-what-is--mobile {
+    background-image: url(../assets/images/illustrations/homepage-what-is-b1a467ac95.png);
+  }
+  .illustration--hypothekarzinsen-header--mobile {
+    background-image: url(../assets/images/illustrations/hypothekarzinsen-header-8bb7641617.png);
+  }
+  .illustration--hypothekenvergleich-airplane--mobile {
+    background-image: url(../assets/images/illustrations/hypothekenvergleich-airplane-01cf2c8c24.png);
+  }
+  .illustration--hypothekenvergleich-header--mobile {
+    background-image: url(../assets/images/illustrations/hypothekenvergleich-header-2140d31e73.png);
+  }
+  .illustration--illustration-appraisal-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-appraisal-desktop-e18b0c8223.png);
+  }
+  .illustration--illustration-appraisal-results-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-appraisal-results-desktop-09ef7a41d5.png);
+  }
+  .illustration--illustration-appraisal-results-mobile--mobile {
+    background-image: url(../assets/images/illustrations/illustration-appraisal-results-mobile-2c76b5a910.png);
+  }
+  .illustration--illustration-borrowers-app--mobile {
+    background-image: url(../assets/images/illustrations/illustration-borrowers-app-a9b064cb32.png);
+  }
+  .illustration--illustration-borrowers-office-locator--mobile {
+    background-image: url(../assets/images/illustrations/illustration-borrowers-office-locator-da3dd22e98.png);
+  }
+  .illustration--illustration-borrowers-sent--mobile {
+    background-image: url(../assets/images/illustrations/illustration-borrowers-sent-dca7202c30.png);
+  }
+  .illustration--illustration-calculator--mobile {
+    background-image: url(../assets/images/illustrations/illustration-calculator-96878f69d1.png);
+  }
+  .illustration--illustration-callback-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-callback-desktop-3396152ad9.png);
+  }
+  .illustration--illustration-callback-mobile--mobile {
+    background-image: url(../assets/images/illustrations/illustration-callback-mobile-b636c2e2f4.png);
+  }
+  .illustration--illustration-desktop-hypothek--mobile {
+    background-image: url(../assets/images/illustrations/illustration-desktop-hypothek-2554de56d7.png);
+  }
+  .illustration--illustration-finanzierungscertifikat-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-finanzierungscertifikat-desktop-cf3b445a05.png);
+  }
+  .illustration--illustration-finanzierungscertifikat-mobile--mobile {
+    background-image: url(../assets/images/illustrations/illustration-finanzierungscertifikat-mobile-32d9503e84.png);
+  }
+  .illustration--illustration-home-owner-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-home-owner-desktop-1cc3da4a4a.png);
+  }
+  .illustration--illustration-home-owner-mobile--mobile {
+    background-image: url(../assets/images/illustrations/illustration-home-owner-mobile-688c7c7b62.png);
+  }
+  .illustration--illustration-hypothek--mobile {
+    background-image: url(../assets/images/illustrations/illustration-hypothek-d85ec3567b.png);
+  }
+  .illustration--illustration-hypothekenzins--mobile {
+    background-image: url(../assets/images/illustrations/illustration-hypothekenzins-3b25528a06.png);
+  }
+  .illustration--illustration-ipre-anlagekriterien-mobile--mobile {
+    background-image: url(../assets/images/illustrations/illustration-ipre-anlagekriterien-mobile-b658db3582.png);
+  }
+  .illustration--illustration-ipre-callback--mobile {
+    background-image: url(../assets/images/illustrations/illustration-ipre-callback-48835065d8.png);
+  }
+  .illustration--illustration-ipre-faq-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-ipre-faq-desktop-995f1f614d.png);
+  }
+  .illustration--illustration-ipre-hypothek-mobile--mobile {
+    background-image: url(../assets/images/illustrations/illustration-ipre-hypothek-mobile-40eeccafe2.png);
+  }
+  .illustration--illustration-ipre-kontakt-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-ipre-kontakt-desktop-64e65ed3f3.png);
+  }
+  .illustration--illustration-ipre-media-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-ipre-media-desktop-a335fc2c2e.png);
+  }
+  .illustration--illustration-ipre-mehrfamilienhaus--mobile {
+    background-image: url(../assets/images/illustrations/illustration-ipre-mehrfamilienhaus-7f645bf791.png);
+  }
+  .illustration--illustration-ipre-needed-mortgage--mobile {
+    background-image: url(../assets/images/illustrations/illustration-ipre-needed-mortgage-a07d81227f.png);
+  }
+  .illustration--illustration-ipre-offline--mobile {
+    background-image: url(../assets/images/illustrations/illustration-ipre-offline-6d7d256e4f.png);
+  }
+  .illustration--illustration-landing-page-vp--mobile {
+    background-image: url(../assets/images/illustrations/illustration-landing-page-vp-4760670a86.png);
+  }
+  .illustration--illustration-phone-info--mobile {
+    background-image: url(../assets/images/illustrations/illustration-phone-info-e92ddc95c4.png);
+  }
+  .illustration--illustration-submission-failed--mobile {
+    background-image: url(../assets/images/illustrations/illustration-submission-failed-f53acd01b0.png);
+  }
+  .illustration--illustration-technical-error--mobile {
+    background-image: url(../assets/images/illustrations/illustration-technical-error-ff636c4ebd.png);
+  }
+  .illustration--illustration-video-page-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-video-page-desktop-e242d96813.png);
+  }
+  .illustration--illustration-video-page-mobile--mobile {
+    background-image: url(../assets/images/illustrations/illustration-video-page-mobile-86f1a86d71.png);
+  }
+  .illustration--illustration-what-is-key4-header-mobile--mobile {
+    background-image: url(../assets/images/illustrations/illustration-what-is-key4-header-mobile-489d5d17af.png);
+  }
+  .illustration--illustration-zinsprognose-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-zinsprognose-desktop-c950a4858a.png);
+  }
+  .illustration--illustration-zinsprognose-mobile--mobile {
+    background-image: url(../assets/images/illustrations/illustration-zinsprognose-mobile-2dc61b2c36.png);
+  }
+  .illustration--illustratiopn-what-is-key4-header-desktop--mobile {
+    background-image: url(../assets/images/illustrations/illustration-what-is-key4-header-desktop-7c994a8528.png);
+  }
+  .illustration--immobilienwert--mobile {
+    background-image: url(../assets/images/illustrations/immobilienwert-615a2bd69e.png);
+  }
+  .illustration--interest-cream-desktop--mobile {
+    background-image: url(../assets/images/illustrations/interest-cream-desktop-cab0ea6130.png);
+  }
+  .illustration--interest-cream-mobile--mobile {
+    background-image: url(../assets/images/illustrations/interest-cream-mobile-cfc4ee0e26.png);
+  }
+  .illustration--ipre-anlagekriterien-header--mobile {
+    background-image: url(../assets/images/illustrations/ipre-anlagekriterien-header-7cf07e7826.png);
+  }
+  .illustration--ipre-hypothek-header--mobile {
+    background-image: url(../assets/images/illustrations/ipre-hypothek-header-227f45cbdb.png);
+  }
+  .illustration--ipre-illustration-faq-mobile--mobile {
+    background-image: url(../assets/images/illustrations/ipre-illustration-faq-mobile-ddd8978c3c.png);
+  }
+  .illustration--kontakt-header--mobile {
+    background-image: url(../assets/images/illustrations/kontakt-header-8651e0e8c8.png);
+  }
+  .illustration--laufzeiten-cream--mobile {
+    background-image: url(../assets/images/illustrations/laufzeiten-cream-165d94609e.png);
+  }
+  .illustration--lernpfade-dream--mobile {
+    background-image: url(../assets/images/illustrations/lernpfade-dream-47f5e36e4b.svg);
+  }
+  .illustration--lernpfade-finance--mobile {
+    background-image: url(../assets/images/illustrations/lernpfade-finance-aebe4424b5.svg);
+  }
+  .illustration--lernpfade-mortgage--mobile {
+    background-image: url(../assets/images/illustrations/lernpfade-mortgage-f0174136ce.svg);
+  }
+  .illustration--libor-hypothek--mobile {
+    background-image: url(../assets/images/illustrations/libor-hypothek-0cfa69f08e.png);
+  }
+  .illustration--media-illustration--mobile {
+    background-image: url(../assets/images/illustrations/media-illustration-a0e253f183.png);
+  }
+  .illustration--minuten-beige--mobile {
+    background-image: url(../assets/images/illustrations/minuten-beige-5e0e9487c4.png);
+  }
+  .illustration--mortgage-comparison--mobile {
+    background-image: url(../assets/images/illustrations/mortgage-comparison-537dea1947.png);
+  }
+  .illustration--mortgage--mobile {
+    background-image: url(../assets/images/illustrations/mortgage-3133fd7317.png);
+  }
+  .illustration--nachhaltig--mobile {
+    background-image: url(../assets/images/illustrations/nachhaltig-926bc2c233.svg);
+  }
+  .illustration--sustainability--mobile {
+    background-image: url(../assets/images/illustrations/sustainability-662a45ec8e.svg);
+  }
+  .illustration--nhb-reminder-confirmation-screen-desktop--mobile {
+    background-image: url(../assets/images/illustrations/nhb-reminder-confirmation-screen-desktop-b9b27d29aa.png);
+  }
+  .illustration--nhb-reminder-desktop--mobile {
+    background-image: url(../assets/images/illustrations/nhb-reminder-desktop-b0474b752f.png);
+  }
+  .illustration--nhb-reminder-second-desktop--mobile {
+    background-image: url(../assets/images/illustrations/nhb-reminder-second-desktop-d9213ba5a0.png);
+  }
+  .illustration--novac-logo--mobile {
+    background-image: url(../assets/images/illustrations/novac-logo-afc996e99c.png);
+  }
+  .illustration--partner-header--mobile {
+    background-image: url(../assets/images/illustrations/partner-header-a19a5b2057.png);
+  }
+  .illustration--presse-header--mobile {
+    background-image: url(../assets/images/illustrations/presse-header-47e5c0adaa.png);
+  }
+  .illustration--presse-medien1--mobile {
+    background-image: url(../assets/images/illustrations/presse-medien1-c91554a53d.png);
+  }
+  .illustration--presse-medien2--mobile {
+    background-image: url(../assets/images/illustrations/presse-medien2-bbc53e3128.png);
+  }
+  .illustration--product-hypotek-ablosen-header--mobile {
+    background-image: url(../assets/images/illustrations/product-hypotek-ablosen-header-4b6851acde.png);
+  }
+  .illustration--product-hypotek-ablosen-small2--mobile {
+    background-image: url(../assets/images/illustrations/product-hypotek-ablosen-small2-fa840dca5c.png);
+  }
+  .illustration--product-hypotek-ablosen--mobile {
+    background-image: url(../assets/images/illustrations/product-hypotek-ablosen-95b41020c0.png);
+  }
+  .illustration--product-libor-hypothek-header--mobile {
+    background-image: url(../assets/images/illustrations/product-libor-hypothek-header-ead49575e4.png);
+  }
+  .illustration--product-libor-hypothek-small--mobile {
+    background-image: url(../assets/images/illustrations/product-libor-hypothek-small-43f5bec75f.png);
+  }
+  .illustration--product-online-hypothek--header--mobile {
+    background-image: url(../assets/images/illustrations/product-online-hypothek--header-f6d9e6361a.png);
+  }
+  .illustration--product-online-hypothek--small--mobile {
+    background-image: url(../assets/images/illustrations/product-online-hypothek--small-9fc8a0a296.png);
+  }
+  .illustration--product-saron-header-v2--mobile {
+    background-image: url(../assets/images/illustrations/product-saron-header-v2-baed3d7520.svg);
+  }
+  .illustration--product-saron-header--mobile {
+    background-image: url(../assets/images/illustrations/product-saron-header-2687ee8f54.png);
+  }
+  .illustration--product-saron-small--mobile {
+    background-image: url(../assets/images/illustrations/product-saron-small-d3ec545fe9.png);
+  }
+  .illustration--qa-abschliessen--mobile {
+    background-image: url(../assets/images/illustrations/qa-abschliessen-c9d515d650.png);
+  }
+  .illustration--qa-allgemein--mobile {
+    background-image: url(../assets/images/illustrations/qa-allgemein-a36b706fab.png);
+  }
+  .illustration--qa-beratung--mobile {
+    background-image: url(../assets/images/illustrations/qa-beratung-f599dc46b5.png);
+  }
+  .illustration--qa-cycle--mobile {
+    background-image: url(../assets/images/illustrations/qa-cycle-453e78c2b7.png);
+  }
+  .illustration--qa-desktop-abschliessen-2--mobile {
+    background-image: url(../assets/images/illustrations/qa-desktop-abschliessen-2-8a661a5618.png);
+  }
+  .illustration--qa-desktop-allgemein-2--mobile {
+    background-image: url(../assets/images/illustrations/qa-desktop-allgemein-2-7c8cbb15ff.png);
+  }
+  .illustration--qa-desktop-beratung-2--mobile {
+    background-image: url(../assets/images/illustrations/qa-desktop-beratung-2-c13449a4fc.png);
+  }
+  .illustration--qa-desktop-cycle-2--mobile {
+    background-image: url(../assets/images/illustrations/qa-desktop-cycle-2-fe0e284264.png);
+  }
+  .illustration--qa-desktop-nach-beratung-2--mobile {
+    background-image: url(../assets/images/illustrations/qa-desktop-nach-beratung-2-8f60c68dc4.png);
+  }
+  .illustration--qa-nach-beratung--mobile {
+    background-image: url(../assets/images/illustrations/qa-nach-beratung-f84f3d791c.png);
+  }
+  .illustration--ratgeber-teaser--mobile {
+    background-image: url(../assets/images/illustrations/ratgeber-teaser-a00e0c10b4.png);
+  }
+  .illustration--saron-eignet--mobile {
+    background-image: url(../assets/images/illustrations/saron-eignet-b1f3f0b47e.png);
+  }
+  .illustration--saron-header--mobile {
+    background-image: url(../assets/images/illustrations/saron-header-aa1134cf64.png);
+  }
+  .illustration--saron-was--mobile {
+    background-image: url(../assets/images/illustrations/saron-was-9fbcf8cba9.png);
+  }
+  .illustration--saron-wie--mobile {
+    background-image: url(../assets/images/illustrations/saron-wie-db3245139f.png);
+  }
+  .illustration--ubs-and-key4--mobile {
+    background-image: url(../assets/images/illustrations/ubs-and-key4-92d7fc19a9.png);
+  }
+  .illustration--usp-advisory-cream--mobile {
+    background-image: url(../assets/images/illustrations/usp-advisory-cream-dd0002fc21.png);
+  }
+  .illustration--usp-advisory--mobile {
+    background-image: url(../assets/images/illustrations/usp-advisory-0a8a82b0c4.png);
+  }
+  .illustration--usp-offer-cream--mobile {
+    background-image: url(../assets/images/illustrations/usp-offer-cream-6e9589e422.png);
+  }
+  .illustration--usp-offer--mobile {
+    background-image: url(../assets/images/illustrations/usp-offer-1774dbc46a.png);
+  }
+  .illustration--usp-zinsen--mobile {
+    background-image: url(../assets/images/illustrations/usp-zinsen-80f40018f8.png);
+  }
+  .illustration--video-festhypothek-erklart--mobile {
+    background-image: url(../assets/images/illustrations/video-festhypothek-erklart-841db6f393.svg);
+  }
+  .illustration--video-illustration-borrower--mobile {
+    background-image: url(../assets/images/illustrations/video-illustration-borrower-72b2e1f89f.png);
+  }
+  .illustration--video-illustration-Investor-key4--mobile {
+    background-image: url(../assets/images/illustrations/video-what-is-key-4-ddf7a1419e.png);
+  }
+  .illustration--video-illustration-investor--mobile {
+    background-image: url(../assets/images/illustrations/video-illustration-investor-7c0730fd54.png);
+  }
+  .illustration--video-saron-v2--mobile {
+    background-image: url(../assets/images/illustrations/video-saron-v2-c842616e1f.svg);
+  }
+  .illustration--video-was-ist-bei-key4-anders--mobile {
+    background-image: url(../assets/images/illustrations/video-was-ist-bei-key4-anders-5d8809dcc5.png);
+  }
+  .illustration--video-what-is-key-4--mobile {
+    background-image: url(../assets/images/illustrations/video-what-is-key-4-ddf7a1419e.png);
+  }
+  .illustration--video-wie-funktioniert-key4--mobile {
+    background-image: url(../assets/images/illustrations/video-wie-funktioniert-key4-d569388245.png);
+  }
+  .illustration--video-wie-verlangere-ich-meine-hypothek-mit-key4--mobile {
+    background-image: url(../assets/images/illustrations/video-wie-verlangere-ich-meine-hypothek-mit-key4-2412452c69.png);
+  }
+  .illustration--was-ist-eine-hypothek--mobile {
+    background-image: url(../assets/images/illustrations/was-ist-eine-hypothek-8407547927.png);
+  }
+  .illustration--welche--mobile {
+    background-image: url(../assets/images/illustrations/welche-231f213f27.png);
+  }
+  .illustration--what-is-a-mortgage--mobile {
+    background-image: url(../assets/images/illustrations/what-is-a-mortgage-68dfe90e55.png);
+  }
+  .illustration--what-is-key4-01--mobile {
+    background-image: url(../assets/images/illustrations/what-is-key4-01-8d97540628.png);
+  }
+  .illustration--what-is-key4-02--mobile {
+    background-image: url(../assets/images/illustrations/what-is-key4-02-d194c20701.png);
+  }
+  .illustration--what-is-key4-03--mobile {
+    background-image: url(../assets/images/illustrations/what-is-key4-03-c54904beb4.png);
+  }
+  .illustration--what-is-key4-anbieter--mobile {
+    background-image: url(../assets/images/illustrations/what-is-key4-anbieter-19f63642cb.png);
+  }
+  .illustration--what-is-key4-berater--mobile {
+    background-image: url(../assets/images/illustrations/what-is-key4-berater-745580148a.png);
+  }
+}
+@media (min-width: 768px) {
+  .illustration--4-schritten--desktop {
+    background-image: url(../assets/images/illustrations/4-schritten-f91bec65b6.png);
+  }
+  .illustration--advisory-page-illustration--desktop {
+    background-image: url(../assets/images/illustrations/advisory-page-illustration-487fbc5156.png);
+  }
+  .illustration--client-advisors--desktop {
+    background-image: url(../assets/images/illustrations/client-advisors-c6212407f9.png);
+  }
+  .illustration--cookies--desktop {
+    background-image: url(../assets/images/illustrations/cookies-d291a1d265.png);
+  }
+  .illustration--error-not-found--desktop {
+    background-image: url(../assets/images/illustrations/error-not-found-bd0ec14f64.png);
+  }
+  .illustration--error-offline--desktop {
+    background-image: url(../assets/images/illustrations/error-offline-e3e8139d35.png);
+  }
+  .illustration--error-red-case--desktop {
+    background-image: url(../assets/images/illustrations/error-red-case-ee8739158f.png);
+  }
+  .illustration--faq-header--desktop {
+    background-image: url(../assets/images/illustrations/faq-header-34a43f0db2.png);
+  }
+  .illustration--festhypothek-header--desktop {
+    background-image: url(../assets/images/illustrations/festhypothek-header-2374c652ba.png);
+  }
+  .illustration--festhypothek-module-1--desktop {
+    background-image: url(../assets/images/illustrations/festhypothek-module-1-a47c1c78b5.svg);
+  }
+  .illustration--festhypothek-module-2--desktop {
+    background-image: url(../assets/images/illustrations/festhypothek-module-2-c475777a6d.svg);
+  }
+  .illustration--festhypothek-was--desktop {
+    background-image: url(../assets/images/illustrations/festhypothek-was-04b2d10bfe.png);
+  }
+  .illustration--festhypothek-wie--desktop {
+    background-image: url(../assets/images/illustrations/festhypothek-wie-1b55a814ab.png);
+  }
+  .illustration--geo-targeting-desktop--desktop {
+    background-image: url(../assets/images/illustrations/geo-targeting-desktop-bf27d8b809.png);
+  }
+  .illustration--green-mortgage-home--desktop {
+    background-image: url(../assets/images/illustrations/green-mortgage-home-ff928401fc.png);
+  }
+  .illustration--green-mortgage-ipre--desktop {
+    background-image: url(../assets/images/illustrations/green-mortgage-ipre-df11fb912c.svg);
+  }
+  .illustration--green-mortgage-logo--desktop {
+    background-image: url(../assets/images/illustrations/green-mortgage-logo-3d327e0943.png);
+  }
+  .illustration--group-humans--desktop {
+    background-image: url(../assets/images/illustrations/group-humans-29d3624fb0.png);
+  }
+  .illustration--homepage-minuten--desktop {
+    background-image: url(../assets/images/illustrations/homepage-minuten-b39bb8cfd5.png);
+  }
+  .illustration--homepage-what-is--desktop {
+    background-image: url(../assets/images/illustrations/homepage-what-is-b1a467ac95.png);
+  }
+  .illustration--hypothekarzinsen-header--desktop {
+    background-image: url(../assets/images/illustrations/hypothekarzinsen-header-8bb7641617.png);
+  }
+  .illustration--hypothekenvergleich-airplane--desktop {
+    background-image: url(../assets/images/illustrations/hypothekenvergleich-airplane-01cf2c8c24.png);
+  }
+  .illustration--hypothekenvergleich-header--desktop {
+    background-image: url(../assets/images/illustrations/hypothekenvergleich-header-2140d31e73.png);
+  }
+  .illustration--illustration-appraisal-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-appraisal-desktop-e18b0c8223.png);
+  }
+  .illustration--illustration-appraisal-results-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-appraisal-results-desktop-09ef7a41d5.png);
+  }
+  .illustration--illustration-appraisal-results-mobile--desktop {
+    background-image: url(../assets/images/illustrations/illustration-appraisal-results-mobile-2c76b5a910.png);
+  }
+  .illustration--illustration-borrowers-app--desktop {
+    background-image: url(../assets/images/illustrations/illustration-borrowers-app-a9b064cb32.png);
+  }
+  .illustration--illustration-borrowers-office-locator--desktop {
+    background-image: url(../assets/images/illustrations/illustration-borrowers-office-locator-da3dd22e98.png);
+  }
+  .illustration--illustration-borrowers-sent--desktop {
+    background-image: url(../assets/images/illustrations/illustration-borrowers-sent-dca7202c30.png);
+  }
+  .illustration--illustration-calculator--desktop {
+    background-image: url(../assets/images/illustrations/illustration-calculator-96878f69d1.png);
+  }
+  .illustration--illustration-callback-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-callback-desktop-3396152ad9.png);
+  }
+  .illustration--illustration-callback-mobile--desktop {
+    background-image: url(../assets/images/illustrations/illustration-callback-mobile-b636c2e2f4.png);
+  }
+  .illustration--illustration-desktop-hypothek--desktop {
+    background-image: url(../assets/images/illustrations/illustration-desktop-hypothek-2554de56d7.png);
+  }
+  .illustration--illustration-finanzierungscertifikat-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-finanzierungscertifikat-desktop-cf3b445a05.png);
+  }
+  .illustration--illustration-finanzierungscertifikat-mobile--desktop {
+    background-image: url(../assets/images/illustrations/illustration-finanzierungscertifikat-mobile-32d9503e84.png);
+  }
+  .illustration--illustration-home-owner-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-home-owner-desktop-1cc3da4a4a.png);
+  }
+  .illustration--illustration-home-owner-mobile--desktop {
+    background-image: url(../assets/images/illustrations/illustration-home-owner-mobile-688c7c7b62.png);
+  }
+  .illustration--illustration-hypothek--desktop {
+    background-image: url(../assets/images/illustrations/illustration-hypothek-d85ec3567b.png);
+  }
+  .illustration--illustration-hypothekenzins--desktop {
+    background-image: url(../assets/images/illustrations/illustration-hypothekenzins-3b25528a06.png);
+  }
+  .illustration--illustration-ipre-anlagekriterien-mobile--desktop {
+    background-image: url(../assets/images/illustrations/illustration-ipre-anlagekriterien-mobile-b658db3582.png);
+  }
+  .illustration--illustration-ipre-callback--desktop {
+    background-image: url(../assets/images/illustrations/illustration-ipre-callback-48835065d8.png);
+  }
+  .illustration--illustration-ipre-faq-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-ipre-faq-desktop-995f1f614d.png);
+  }
+  .illustration--illustration-ipre-hypothek-mobile--desktop {
+    background-image: url(../assets/images/illustrations/illustration-ipre-hypothek-mobile-40eeccafe2.png);
+  }
+  .illustration--illustration-ipre-kontakt-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-ipre-kontakt-desktop-64e65ed3f3.png);
+  }
+  .illustration--illustration-ipre-media-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-ipre-media-desktop-a335fc2c2e.png);
+  }
+  .illustration--illustration-ipre-mehrfamilienhaus--desktop {
+    background-image: url(../assets/images/illustrations/illustration-ipre-mehrfamilienhaus-7f645bf791.png);
+  }
+  .illustration--illustration-ipre-needed-mortgage--desktop {
+    background-image: url(../assets/images/illustrations/illustration-ipre-needed-mortgage-a07d81227f.png);
+  }
+  .illustration--illustration-ipre-offline--desktop {
+    background-image: url(../assets/images/illustrations/illustration-ipre-offline-6d7d256e4f.png);
+  }
+  .illustration--illustration-landing-page-vp--desktop {
+    background-image: url(../assets/images/illustrations/illustration-landing-page-vp-4760670a86.png);
+  }
+  .illustration--illustration-phone-info--desktop {
+    background-image: url(../assets/images/illustrations/illustration-phone-info-e92ddc95c4.png);
+  }
+  .illustration--illustration-submission-failed--desktop {
+    background-image: url(../assets/images/illustrations/illustration-submission-failed-f53acd01b0.png);
+  }
+  .illustration--illustration-technical-error--desktop {
+    background-image: url(../assets/images/illustrations/illustration-technical-error-ff636c4ebd.png);
+  }
+  .illustration--illustration-video-page-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-video-page-desktop-e242d96813.png);
+  }
+  .illustration--illustration-video-page-mobile--desktop {
+    background-image: url(../assets/images/illustrations/illustration-video-page-mobile-86f1a86d71.png);
+  }
+  .illustration--illustration-what-is-key4-header-mobile--desktop {
+    background-image: url(../assets/images/illustrations/illustration-what-is-key4-header-mobile-489d5d17af.png);
+  }
+  .illustration--illustration-zinsprognose-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-zinsprognose-desktop-c950a4858a.png);
+  }
+  .illustration--illustration-zinsprognose-mobile--desktop {
+    background-image: url(../assets/images/illustrations/illustration-zinsprognose-mobile-2dc61b2c36.png);
+  }
+  .illustration--illustratiopn-what-is-key4-header-desktop--desktop {
+    background-image: url(../assets/images/illustrations/illustration-what-is-key4-header-desktop-7c994a8528.png);
+  }
+  .illustration--immobilienwert--desktop {
+    background-image: url(../assets/images/illustrations/immobilienwert-615a2bd69e.png);
+  }
+  .illustration--interest-cream-desktop--desktop {
+    background-image: url(../assets/images/illustrations/interest-cream-desktop-cab0ea6130.png);
+  }
+  .illustration--interest-cream-mobile--desktop {
+    background-image: url(../assets/images/illustrations/interest-cream-mobile-cfc4ee0e26.png);
+  }
+  .illustration--ipre-anlagekriterien-header--desktop {
+    background-image: url(../assets/images/illustrations/ipre-anlagekriterien-header-7cf07e7826.png);
+  }
+  .illustration--ipre-hypothek-header--desktop {
+    background-image: url(../assets/images/illustrations/ipre-hypothek-header-227f45cbdb.png);
+  }
+  .illustration--ipre-illustration-faq-mobile--desktop {
+    background-image: url(../assets/images/illustrations/ipre-illustration-faq-mobile-ddd8978c3c.png);
+  }
+  .illustration--kontakt-header--desktop {
+    background-image: url(../assets/images/illustrations/kontakt-header-8651e0e8c8.png);
+  }
+  .illustration--laufzeiten-cream--desktop {
+    background-image: url(../assets/images/illustrations/laufzeiten-cream-165d94609e.png);
+  }
+  .illustration--lernpfade-dream--desktop {
+    background-image: url(../assets/images/illustrations/lernpfade-dream-47f5e36e4b.svg);
+  }
+  .illustration--lernpfade-finance--desktop {
+    background-image: url(../assets/images/illustrations/lernpfade-finance-aebe4424b5.svg);
+  }
+  .illustration--lernpfade-mortgage--desktop {
+    background-image: url(../assets/images/illustrations/lernpfade-mortgage-f0174136ce.svg);
+  }
+  .illustration--libor-hypothek--desktop {
+    background-image: url(../assets/images/illustrations/libor-hypothek-0cfa69f08e.png);
+  }
+  .illustration--media-illustration--desktop {
+    background-image: url(../assets/images/illustrations/media-illustration-a0e253f183.png);
+  }
+  .illustration--minuten-beige--desktop {
+    background-image: url(../assets/images/illustrations/minuten-beige-5e0e9487c4.png);
+  }
+  .illustration--mortgage-comparison--desktop {
+    background-image: url(../assets/images/illustrations/mortgage-comparison-537dea1947.png);
+  }
+  .illustration--mortgage--desktop {
+    background-image: url(../assets/images/illustrations/mortgage-3133fd7317.png);
+  }
+  .illustration--nachhaltig--desktop {
+    background-image: url(../assets/images/illustrations/nachhaltig-926bc2c233.svg);
+  }
+  .illustration--sustainability--desktop {
+    background-image: url(../assets/images/illustrations/sustainability-662a45ec8e.svg);
+  }
+  .illustration--nhb-reminder-confirmation-screen-desktop--desktop {
+    background-image: url(../assets/images/illustrations/nhb-reminder-confirmation-screen-desktop-b9b27d29aa.png);
+  }
+  .illustration--nhb-reminder-desktop--desktop {
+    background-image: url(../assets/images/illustrations/nhb-reminder-desktop-b0474b752f.png);
+  }
+  .illustration--nhb-reminder-second-desktop--desktop {
+    background-image: url(../assets/images/illustrations/nhb-reminder-second-desktop-d9213ba5a0.png);
+  }
+  .illustration--novac-logo--desktop {
+    background-image: url(../assets/images/illustrations/novac-logo-afc996e99c.png);
+  }
+  .illustration--partner-header--desktop {
+    background-image: url(../assets/images/illustrations/partner-header-a19a5b2057.png);
+  }
+  .illustration--presse-header--desktop {
+    background-image: url(../assets/images/illustrations/presse-header-47e5c0adaa.png);
+  }
+  .illustration--presse-medien1--desktop {
+    background-image: url(../assets/images/illustrations/presse-medien1-c91554a53d.png);
+  }
+  .illustration--presse-medien2--desktop {
+    background-image: url(../assets/images/illustrations/presse-medien2-bbc53e3128.png);
+  }
+  .illustration--product-hypotek-ablosen-header--desktop {
+    background-image: url(../assets/images/illustrations/product-hypotek-ablosen-header-4b6851acde.png);
+  }
+  .illustration--product-hypotek-ablosen-small2--desktop {
+    background-image: url(../assets/images/illustrations/product-hypotek-ablosen-small2-fa840dca5c.png);
+  }
+  .illustration--product-hypotek-ablosen--desktop {
+    background-image: url(../assets/images/illustrations/product-hypotek-ablosen-95b41020c0.png);
+  }
+  .illustration--product-libor-hypothek-header--desktop {
+    background-image: url(../assets/images/illustrations/product-libor-hypothek-header-ead49575e4.png);
+  }
+  .illustration--product-libor-hypothek-small--desktop {
+    background-image: url(../assets/images/illustrations/product-libor-hypothek-small-43f5bec75f.png);
+  }
+  .illustration--product-online-hypothek--header--desktop {
+    background-image: url(../assets/images/illustrations/product-online-hypothek--header-f6d9e6361a.png);
+  }
+  .illustration--product-online-hypothek--small--desktop {
+    background-image: url(../assets/images/illustrations/product-online-hypothek--small-9fc8a0a296.png);
+  }
+  .illustration--product-saron-header-v2--desktop {
+    background-image: url(../assets/images/illustrations/product-saron-header-v2-baed3d7520.svg);
+  }
+  .illustration--product-saron-header--desktop {
+    background-image: url(../assets/images/illustrations/product-saron-header-2687ee8f54.png);
+  }
+  .illustration--product-saron-small--desktop {
+    background-image: url(../assets/images/illustrations/product-saron-small-d3ec545fe9.png);
+  }
+  .illustration--qa-abschliessen--desktop {
+    background-image: url(../assets/images/illustrations/qa-abschliessen-c9d515d650.png);
+  }
+  .illustration--qa-allgemein--desktop {
+    background-image: url(../assets/images/illustrations/qa-allgemein-a36b706fab.png);
+  }
+  .illustration--qa-beratung--desktop {
+    background-image: url(../assets/images/illustrations/qa-beratung-f599dc46b5.png);
+  }
+  .illustration--qa-cycle--desktop {
+    background-image: url(../assets/images/illustrations/qa-cycle-453e78c2b7.png);
+  }
+  .illustration--qa-desktop-abschliessen-2--desktop {
+    background-image: url(../assets/images/illustrations/qa-desktop-abschliessen-2-8a661a5618.png);
+  }
+  .illustration--qa-desktop-allgemein-2--desktop {
+    background-image: url(../assets/images/illustrations/qa-desktop-allgemein-2-7c8cbb15ff.png);
+  }
+  .illustration--qa-desktop-beratung-2--desktop {
+    background-image: url(../assets/images/illustrations/qa-desktop-beratung-2-c13449a4fc.png);
+  }
+  .illustration--qa-desktop-cycle-2--desktop {
+    background-image: url(../assets/images/illustrations/qa-desktop-cycle-2-fe0e284264.png);
+  }
+  .illustration--qa-desktop-nach-beratung-2--desktop {
+    background-image: url(../assets/images/illustrations/qa-desktop-nach-beratung-2-8f60c68dc4.png);
+  }
+  .illustration--qa-nach-beratung--desktop {
+    background-image: url(../assets/images/illustrations/qa-nach-beratung-f84f3d791c.png);
+  }
+  .illustration--ratgeber-teaser--desktop {
+    background-image: url(../assets/images/illustrations/ratgeber-teaser-a00e0c10b4.png);
+  }
+  .illustration--saron-eignet--desktop {
+    background-image: url(../assets/images/illustrations/saron-eignet-b1f3f0b47e.png);
+  }
+  .illustration--saron-header--desktop {
+    background-image: url(../assets/images/illustrations/saron-header-aa1134cf64.png);
+  }
+  .illustration--saron-was--desktop {
+    background-image: url(../assets/images/illustrations/saron-was-9fbcf8cba9.png);
+  }
+  .illustration--saron-wie--desktop {
+    background-image: url(../assets/images/illustrations/saron-wie-db3245139f.png);
+  }
+  .illustration--ubs-and-key4--desktop {
+    background-image: url(../assets/images/illustrations/ubs-and-key4-92d7fc19a9.png);
+  }
+  .illustration--usp-advisory-cream--desktop {
+    background-image: url(../assets/images/illustrations/usp-advisory-cream-dd0002fc21.png);
+  }
+  .illustration--usp-advisory--desktop {
+    background-image: url(../assets/images/illustrations/usp-advisory-0a8a82b0c4.png);
+  }
+  .illustration--usp-offer-cream--desktop {
+    background-image: url(../assets/images/illustrations/usp-offer-cream-6e9589e422.png);
+  }
+  .illustration--usp-offer--desktop {
+    background-image: url(../assets/images/illustrations/usp-offer-1774dbc46a.png);
+  }
+  .illustration--usp-zinsen--desktop {
+    background-image: url(../assets/images/illustrations/usp-zinsen-80f40018f8.png);
+  }
+  .illustration--video-festhypothek-erklart--desktop {
+    background-image: url(../assets/images/illustrations/video-festhypothek-erklart-841db6f393.svg);
+  }
+  .illustration--video-illustration-borrower--desktop {
+    background-image: url(../assets/images/illustrations/video-illustration-borrower-72b2e1f89f.png);
+  }
+  .illustration--video-illustration-Investor-key4--desktop {
+    background-image: url(../assets/images/illustrations/video-what-is-key-4-ddf7a1419e.png);
+  }
+  .illustration--video-illustration-investor--desktop {
+    background-image: url(../assets/images/illustrations/video-illustration-investor-7c0730fd54.png);
+  }
+  .illustration--video-saron-v2--desktop {
+    background-image: url(../assets/images/illustrations/video-saron-v2-c842616e1f.svg);
+  }
+  .illustration--video-was-ist-bei-key4-anders--desktop {
+    background-image: url(../assets/images/illustrations/video-was-ist-bei-key4-anders-5d8809dcc5.png);
+  }
+  .illustration--video-what-is-key-4--desktop {
+    background-image: url(../assets/images/illustrations/video-what-is-key-4-ddf7a1419e.png);
+  }
+  .illustration--video-wie-funktioniert-key4--desktop {
+    background-image: url(../assets/images/illustrations/video-wie-funktioniert-key4-d569388245.png);
+  }
+  .illustration--video-wie-verlangere-ich-meine-hypothek-mit-key4--desktop {
+    background-image: url(../assets/images/illustrations/video-wie-verlangere-ich-meine-hypothek-mit-key4-2412452c69.png);
+  }
+  .illustration--was-ist-eine-hypothek--desktop {
+    background-image: url(../assets/images/illustrations/was-ist-eine-hypothek-8407547927.png);
+  }
+  .illustration--welche--desktop {
+    background-image: url(../assets/images/illustrations/welche-231f213f27.png);
+  }
+  .illustration--what-is-a-mortgage--desktop {
+    background-image: url(../assets/images/illustrations/what-is-a-mortgage-68dfe90e55.png);
+  }
+  .illustration--what-is-key4-01--desktop {
+    background-image: url(../assets/images/illustrations/what-is-key4-01-8d97540628.png);
+  }
+  .illustration--what-is-key4-02--desktop {
+    background-image: url(../assets/images/illustrations/what-is-key4-02-d194c20701.png);
+  }
+  .illustration--what-is-key4-03--desktop {
+    background-image: url(../assets/images/illustrations/what-is-key4-03-c54904beb4.png);
+  }
+  .illustration--what-is-key4-anbieter--desktop {
+    background-image: url(../assets/images/illustrations/what-is-key4-anbieter-19f63642cb.png);
+  }
+  .illustration--what-is-key4-berater--desktop {
+    background-image: url(../assets/images/illustrations/what-is-key4-berater-745580148a.png);
+  }
+}
+.illustration--illustration-callback-desktop {
+  background-size: 390px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-callback-desktop:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--qa-desktop-allgemein-2 {
+  background-size: 148px;
+}
+@media (min-width: 1024px) {
+  .illustration--qa-desktop-allgemein-2:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--qa-desktop-beratung-2 {
+  background-size: 128px;
+}
+@media (min-width: 1024px) {
+  .illustration--qa-desktop-beratung-2:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--qa-desktop-nach-beratung-2 {
+  background-size: 155px;
+}
+@media (min-width: 1024px) {
+  .illustration--qa-desktop-nach-beratung-2:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--qa-desktop-abschliessen-2 {
+  background-size: 168px;
+}
+@media (min-width: 1024px) {
+  .illustration--qa-desktop-abschliessen-2:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--qa-desktop-cycle-2 {
+  background-size: 171px;
+}
+@media (min-width: 1024px) {
+  .illustration--qa-desktop-cycle-2:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--homepage-minuten {
+  background-size: 170px;
+}
+@media (min-width: 1024px) {
+  .illustration--homepage-minuten:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--homepage-what-is {
+  background-size: 244px;
+}
+@media (min-width: 1024px) {
+  .illustration--homepage-what-is:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--was-ist-eine-hypothek {
+  background-size: 180px;
+}
+@media (min-width: 1024px) {
+  .illustration--was-ist-eine-hypothek:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--festhypothek-was {
+  background-size: 160px;
+}
+@media (min-width: 1024px) {
+  .illustration--festhypothek-was:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--product-libor-hypothek-small {
+  background-size: 157px;
+}
+@media (min-width: 1024px) {
+  .illustration--product-libor-hypothek-small:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--festhypothek-wie {
+  background-size: 147px;
+}
+@media (min-width: 1024px) {
+  .illustration--festhypothek-wie:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--product-saron-small {
+  background-size: 180px;
+}
+@media (min-width: 1024px) {
+  .illustration--product-saron-small:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--product-hypotek-ablosen {
+  background-size: 176px;
+}
+@media (min-width: 1024px) {
+  .illustration--product-hypotek-ablosen:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--product-hypotek-ablosen-small2 {
+  background-size: 136px;
+}
+@media (min-width: 1024px) {
+  .illustration--product-hypotek-ablosen-small2:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--product-online-hypothek--small {
+  background-size: 175px;
+}
+@media (min-width: 1024px) {
+  .illustration--product-online-hypothek--small:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--minuten-beige {
+  background-size: 166px;
+}
+@media (min-width: 1024px) {
+  .illustration--minuten-beige:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-calculator {
+  background-size: 250px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-calculator:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-video-page-desktop {
+  background-size: 290px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-video-page-desktop:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-home-owner-desktop {
+  background-size: 343px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-home-owner-desktop:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-phone-info {
+  background-size: 245px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-phone-info:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--festhypothek-header {
+  background-size: 493px;
+}
+@media (min-width: 1024px) {
+  .illustration--festhypothek-header:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-landing-page-vp {
+  background-size: 246px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-landing-page-vp:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-finanzierungscertifikat-desktop {
+  background-size: 352px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-finanzierungscertifikat-desktop:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-finanzierungscertifikat-mobile {
+  background-size: 256px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-finanzierungscertifikat-mobile:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-appraisal-desktop {
+  background-size: 284px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-appraisal-desktop:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-submission-failed {
+  background-size: 82px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-submission-failed:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-technical-error {
+  background-size: 274px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-technical-error:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-appraisal-results-desktop {
+  background-size: 284px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-appraisal-results-desktop:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-borrowers-app {
+  background-size: 324px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-borrowers-app:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-borrowers-office-locator {
+  background-size: 281px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-borrowers-office-locator:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--illustration-borrowers-sent {
+  background-size: 286px;
+}
+@media (min-width: 1024px) {
+  .illustration--illustration-borrowers-sent:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--usp-advisory {
+  background-size: 210px;
+}
+@media (min-width: 1024px) {
+  .illustration--usp-advisory:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--usp-offer {
+  background-size: 229px;
+}
+@media (min-width: 1024px) {
+  .illustration--usp-offer:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--usp-zinsen {
+  background-size: 214px;
+}
+@media (min-width: 1024px) {
+  .illustration--usp-zinsen:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--mortgage-comparison {
+  background-size: 210px;
+}
+@media (min-width: 1024px) {
+  .illustration--mortgage-comparison:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--immobilienwert {
+  background-size: 229px;
+}
+@media (min-width: 1024px) {
+  .illustration--immobilienwert:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--saron-eignet {
+  background-size: 252px;
+}
+@media (min-width: 1024px) {
+  .illustration--saron-eignet:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--saron-header {
+  background-size: 440px;
+}
+@media (min-width: 1024px) {
+  .illustration--saron-header:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--saron-was {
+  background-size: 162px;
+}
+@media (min-width: 1024px) {
+  .illustration--saron-was:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--saron-wie {
+  background-size: 195px;
+}
+@media (min-width: 1024px) {
+  .illustration--saron-wie:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--welche {
+  background-size: 233px;
+}
+@media (min-width: 1024px) {
+  .illustration--welche:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--laufzeiten-cream {
+  background-size: 214px;
+}
+@media (min-width: 1024px) {
+  .illustration--laufzeiten-cream:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--usp-advisory-cream {
+  background-size: 210px;
+}
+@media (min-width: 1024px) {
+  .illustration--usp-advisory-cream:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+.illustration--usp-offer-cream {
+  background-size: 229px;
+}
+@media (min-width: 1024px) {
+  .illustration--usp-offer-cream:not(.illustration--fixedSize) {
+    background-size: contain;
+  }
+}
+[type="submit"],
+button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+  text-align: inherit;
+}
+.button,
+[type="submit"],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.button {
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  height: 64px;
+  line-height: 22px;
+  outline: 0;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.button--disabled,
+.button:disabled {
+  cursor: default;
+  background: #f5f5f5;
+  pointer-events: none;
+}
+.button:after {
+  background: #ffb3b3;
+  border-radius: 8px;
+  content: "";
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: width 0.3s;
+  width: 0;
+  z-index: -1;
+}
+@media (min-width: 1024px) {
+  .button:after {
+    display: block;
+  }
+}
+.button:focus,
+.button:hover {
+  color: #fff;
+}
+.button:focus:after,
+.button:hover:after {
+  width: 100%;
+}
+.button--ghost {
+  background-color: transparent;
+  border-color: #f96417;
+  color: #f96417;
+}
+.button--ghost:focus,
+.button--ghost:hover {
+  background-position: 0 100%;
+  color: #fff;
+}
+.button--link {
+  background-color: transparent;
+  border: 0;
+  color: #f96417;
+  padding: 0;
+  position: relative;
+  text-transform: none;
+  transition: color 0.2s ease-out;
+}
+.button--link:focus,
+.button--link:hover {
+  background-position: 0 100%;
+  color: #fff;
+}
+.button--link:focus:before,
+.button--link:hover:before {
+  background-color: #091a41;
+}
+.button--link:focus:after,
+.button--link:hover:after {
+  background-position: 100%;
+}
+.button--link:before {
+  background-color: #f96417;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  transition: background-color 0.2s ease-out;
+  width: 100%;
+}
+.button--link:after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.586 5L.293 8.293a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414l-4-4A1 1 0 1 0 .293 1.707L3.586 5z' fill='rgb(249,100,23)'/%3E%3Cpath d='M13.586 5l-3.293 3.293a1 1 0 0 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414l-4-4a1 1 0 0 0-1.414 1.414L13.586 5z' fill='rgb(9,26,65'/%3E%3C/svg%3E");
+  background-position: 0;
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  margin-left: 10px;
+  transition: background-position 0.2s ease-out;
+  vertical-align: baseline;
+  width: 6px;
+}
+.button--medium {
+  font-size: 16px;
+  height: 48px;
+}
+.button--small {
+  font-size: 14px;
+  height: 32px;
+}
+.button--primary {
+  background-color: #f45f65;
+  color: #fff;
+}
+.button--primary-standard {
+  background-color: #362f31;
+  color: #fff;
+}
+.button--primary-standard:after {
+  background-color: #8998a1;
+}
+.button--primary-standard:focus:after,
+.button--primary-standard:hover:after {
+  background: #8998a1;
+}
+.button--primary-standard:disabled {
+  background: #f5f5f5;
+  color: #d7d7d7;
+}
+.button--secondary {
+  border: 1px solid #f45f65;
+  color: #f45f65;
+  background-color: #fff;
+}
+.button--secondary:focus,
+.button--secondary:hover {
+  border: 1px solid #ffb3b3;
+}
+.button--secondary-standard {
+  border: 1px solid #362f31;
+  color: #362f31;
+  background-color: #fff;
+}
+.button--secondary-standard:after {
+  background: #8998a1;
+}
+.button--secondary-standard:focus,
+.button--secondary-standard:hover {
+  border-color: #8998a1;
+  color: #362f31;
+}
+.button--secondary-standard:focus:after,
+.button--secondary-standard:hover:after {
+  background: #8998a1;
+}
+@media (min-width: 1024px) {
+  .button--secondary-standard:focus,
+  .button--secondary-standard:hover {
+    border-color: #8998a1;
+    color: #fff;
+  }
+}
+.button--transparent {
+  border: 1px solid #362f31;
+  color: #362f31;
+}
+.button--transparent:after {
+  background: transparent;
+  transition: none;
+}
+.button--transparent:focus,
+.button--transparent:hover {
+  color: #362f31;
+}
+.button--transparent:focus:after,
+.button--transparent:hover:after {
+  background: transparent;
+}
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+.form-row .form-col {
+  flex-grow: 1;
+}
+.form-row .form-col + .form-col {
+  margin-top: 45px;
+}
+@media (min-width: 768px) {
+  .form-row {
+    flex-flow: row wrap;
+    margin: 0 -17px;
+  }
+  .form-row .form-col {
+    padding: 0 17px;
+  }
+  .form-row .form-col.width-33 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .form-row .form-col.width-66 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+  }
+  .form-row .form-col + .form-col {
+    margin-top: 32px;
+  }
+  .form-row--2 > .form-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .form-row--2 > .form-col:nth-child(2) {
+    margin-top: 0;
+  }
+  .form-row--3 > .form-col {
+    flex: 0 0 33.3%;
+  }
+  .form-row--3 > .form-col:nth-child(2),
+  .form-row--3 > .form-col:nth-child(3) {
+    margin-top: 0;
+  }
+}
+.help-text {
+  color: #5c6a73;
+}
+.form-field {
+  position: relative;
+}
+.form-field--text-area > label,
+.form-field--text > label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #68747a;
+  position: absolute;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+.form-field--text-area .form-input,
+.form-field--text .form-input {
+  border-color: #8998a1;
+  padding: 8px 16px;
+  transition: border-bottom 0.2s ease;
+  margin-bottom: 1px;
+}
+.form-field--text-area.active > label,
+.form-field--text.active > label {
+  font-size: 13px;
+  line-height: 20px;
+}
+.form-field--text-area.active .form-input,
+.form-field--text.active .form-input {
+  border-color: #362f31;
+  outline: none;
+}
+.form-field--text-area.error .form-input,
+.form-field--text.error .form-input {
+  border-color: #bf0000;
+  position: relative;
+}
+.form-field--text-area.error .error-text,
+.form-field--text.error .error-text {
+  color: #bf0000;
+  font-size: 13px;
+  line-height: 20px;
+}
+.form-field--text-area.error:after,
+.form-field--text.error:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-size: cover;
+  background-image: url(../assets/images/icons/error-c1e2c7b057.svg);
+}
+.form-field--text > label {
+  top: 18px;
+  left: 16px;
+}
+.form-field--text .form-input {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #8998a1;
+}
+.form-field--text .form-input::-ms-clear {
+  display: none;
+}
+.form-field--text.active > label {
+  top: 5px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.form-field--text.active .form-input {
+  padding-top: 20px;
+  border-bottom: 1px solid #362f31;
+}
+.form-field--text.error:before {
+  right: 40px;
+}
+.form-field--text.error .form-input {
+  border-bottom: 1px solid #bf0000;
+}
+.form-field--text.error:after {
+  bottom: 30px;
+  right: 10px;
+}
+.form-field--text-area > label {
+  top: 20px;
+  left: 16px;
+}
+.form-field--text-area .form-input {
+  border-radius: 5px;
+  padding: 26px 16px;
+}
+.form-field--text-area.active label {
+  top: 5px;
+  padding: 0 4px;
+}
+.form-field--text-area:after {
+  bottom: 40px;
+  right: 10px;
+}
+.form-field--radio .form-input + label {
+  font-weight: 400;
+}
+.form-field--radio .form-input + label:before {
+  background-color: #fff;
+  border-color: #362f31;
+  width: 22.5px;
+  height: 22.5px;
+  top: 0;
+}
+.form-field--radio .form-input:checked + label:before {
+  animation: ripple 0.2s ease-in-out 0s;
+  background-color: #362f31;
+  border-color: #362f31;
+}
+.form-field--checkbox .form-input + label {
+  padding-left: 43px;
+  font-weight: 400;
+}
+.form-field--checkbox .form-input + label:before {
+  background-color: #fff;
+  border-color: #362f31;
+  width: 25px;
+  height: 25px;
+  top: 0;
+}
+.form-field--checkbox .form-input:checked + label:before {
+  animation: ripple 0.2s ease-in-out 0s;
+  border-color: #362f31;
+  box-shadow: none;
+  background-size: cover;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%23362F31' d='M-306-360h1440v4230H-306z'/%3E%3Cpath d='M9 15.586l-4.293-4.293a1 1 0 10-1.414 1.414l5 5a1 1 0 001.414 0l11-11a1 1 0 10-1.414-1.414L9 15.586z' fill='%23FFF'/%3E%3C/g%3E%3C/svg%3E");
+}
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+  }
+  25% {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+  }
+  60% {
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  to {
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+}
+.logo--mpk {
+  max-width: 240px;
+}
+.tooltip {
+  display: inline;
+  position: relative;
+}
+.tooltip:before {
+  bottom: 20px;
+  border: solid;
+  border-color: #f5eee6 transparent;
+  border-width: 12px 12px 0;
+  content: "";
+}
+.tooltip:after,
+.tooltip:before {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
+.tooltip:after {
+  bottom: 32px;
+  background-color: #f5eee6;
+  color: #362f31;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 16px 16px 20px;
+  border-radius: 5px;
+  content: attr(data-tooltip) "";
+  min-width: 320px;
+}
+.tooltip:hover:after,
+.tooltip:hover:before {
+  opacity: 1;
+  pointer-events: auto;
+}
+.slick-slider {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-list,
+.slick-slider {
+  position: relative;
+  display: block;
+}
+.slick-list {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+  transform: translateZ(0);
+}
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-track:after,
+.slick-track:before {
+  content: "";
+  display: table;
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+.alert {
+  position: relative;
+  padding: 18px 16px 14px 48px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #362f31;
+}
+.alert-error {
+  background: #ffe4e4;
+}
+.alert-error:before {
+  content: "!";
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 28px;
+}
+@font-face {
+  font-family: NEXTBook;
+  src: url(../assets/fonts/NEXTBook-Light-6585988577.eot);
+  src: url(../assets/fonts/NEXTBook-Light-6585988577.eot?#iefix)
+      format("embedded-opentype"),
+    url(../assets/fonts/NEXTBook-Light-00fc91c967.woff2) format("woff2");
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: NEXTBook;
+  src: url(../assets/fonts/NEXTBook-Medium-0c67f084f2.eot);
+  src: url(../assets/fonts/NEXTBook-Medium-0c67f084f2.eot?#iefix)
+      format("embedded-opentype"),
+    url(../assets/fonts/NEXTBook-Medium-548a952520.woff2) format("woff2");
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: NEXTBook;
+  src: url(../assets/fonts/NEXTBook-Regular-34cb60cf37.eot);
+  src: url(../assets/fonts/NEXTBook-Regular-34cb60cf37.eot?#iefix)
+      format("embedded-opentype"),
+    url(../assets/fonts/NEXTBook-Regular-8f432a446d.woff2) format("woff2");
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #362f31;
+  font-family: NEXTBook, Helvetica, Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  line-height: 28px;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+@media (min-width: 1280px) {
+  html {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+html *,
+html :after,
+html :before {
+  box-sizing: inherit;
+}
+html[class*="magazine_article"] .atriumComponentContentWrapper,
+html[class*="magazine_categories"] .atriumComponentContentWrapper,
+html[class*="magazine_tags"] .atriumComponentContentWrapper {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media (min-width: 768px) {
+  html[class*="magazine_article"] .atriumComponentContentWrapper,
+  html[class*="magazine_categories"] .atriumComponentContentWrapper,
+  html[class*="magazine_tags"] .atriumComponentContentWrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 1440px) {
+  html[class*="magazine_article"] .atriumComponentContentWrapper,
+  html[class*="magazine_categories"] .atriumComponentContentWrapper,
+  html[class*="magazine_tags"] .atriumComponentContentWrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin-top: 0;
+}
+.h1 a,
+.h1 a:focus,
+.h1 a:hover,
+.h2 a,
+.h2 a:focus,
+.h2 a:hover,
+.h3 a,
+.h3 a:focus,
+.h3 a:hover,
+.h4 a,
+.h4 a:focus,
+.h4 a:hover,
+.h5 a,
+.h5 a:focus,
+.h5 a:hover,
+.h6 a,
+.h6 a:focus,
+.h6 a:hover,
+h1 a,
+h1 a:focus,
+h1 a:hover,
+h2 a,
+h2 a:focus,
+h2 a:hover,
+h3 a,
+h3 a:focus,
+h3 a:hover,
+h4 a,
+h4 a:focus,
+h4 a:hover,
+h5 a,
+h5 a:focus,
+h5 a:hover,
+h6 a,
+h6 a:focus,
+h6 a:hover {
+  color: #0b1016;
+  text-decoration: none;
+}
+.h1,
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+@media (min-width: 768px) {
+  .h1,
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+@media (min-width: 1280px) {
+  .h1,
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+.h2,
+h2 {
+  font-size: 28px;
+  line-height: 36px;
+}
+@media (min-width: 1280px) {
+  .h2,
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+.h3,
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+@media (min-width: 1280px) {
+  .h3,
+  h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+.h4,
+h4 {
+  font-size: 20px;
+  line-height: 28px;
+}
+@media (min-width: 1280px) {
+  .h4,
+  h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.h5,
+h5 {
+  font-size: 16px;
+  line-height: 28px;
+}
+@media (min-width: 1280px) {
+  .h5,
+  h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.h6,
+h6 {
+  font-size: 14px;
+  line-height: 24px;
+}
+@media (min-width: 1280px) {
+  .h6,
+  h6 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+.number:not(.wpcf7-form-control-wrap) {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+}
+@media (min-width: 768px) {
+  .number:not(.wpcf7-form-control-wrap) {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+@media (min-width: 1280px) {
+  .number:not(.wpcf7-form-control-wrap) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+.number:not(.wpcf7-form-control-wrap).number--small {
+  font-size: 20px;
+  line-height: 28px;
+}
+@media (min-width: 1280px) {
+  .number:not(.wpcf7-form-control-wrap).number--small {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.number:not(.wpcf7-form-control-wrap).number--large {
+  font-size: 48px;
+  line-height: 54px;
+}
+@media (min-width: 768px) {
+  .number:not(.wpcf7-form-control-wrap).number--large {
+    line-height: 54px;
+  }
+}
+@media (min-width: 1280px) {
+  .number:not(.wpcf7-form-control-wrap).number--large {
+    font-size: 56px;
+    line-height: 68px;
+  }
+}
+.font-large {
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (min-width: 1280px) {
+  .font-large {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+a:not(.button) {
+  color: #13857b;
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+}
+a:not(.button):focus,
+a:not(.button):hover {
+  color: #0d5852;
+}
+strong {
+  font-weight: 500;
+}
+.paragraph,
+figure,
+p,
+table {
+  margin: 0 0 19px;
+}
+hr {
+  background-color: #d8d8d8;
+  border: 0;
+  height: 1px;
+  margin: 38px 0;
+}
+hr,
+img {
+  display: block;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+}
+figcaption {
+  font-size: 14px;
+  margin-top: 10px;
+}
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  padding: 0 5px;
+}
+.blockquote,
+blockquote {
+  border-left: 4px solid #f96417;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  line-height: 1.55;
+  margin: 38px auto;
+  max-width: 448px;
+  padding: 13px 24px;
+}
+.blockquote p:last-child,
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+ol,
+ul {
+  margin: 0 0 19px;
+  padding-left: 24px;
+}
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin-bottom: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+}
+td,
+th {
+  padding: 20px;
+  text-align: inherit;
+  vertical-align: top;
+}
+thead th {
+  border-bottom: 2px solid #f96417;
+  color: #0b1016;
+  padding-bottom: 10px;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+tr:nth-child(2n) {
+  background-color: #f2f6fe;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 0;
+  margin: 0 0 24px;
+  padding: 0;
+}
+fieldset :last-child {
+  margin-bottom: 0;
+}
+fieldset input,
+fieldset select,
+fieldset textarea {
+  margin: 0 0 30px;
+}
+legend {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+legend.centered {
+  text-align: center;
+}
+label {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+[type="date"],
+[type="email"],
+[type="number"],
+[type="password"],
+[type="search"],
+[type="tel"],
+[type="text"],
+[type="url"],
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #f5f5f5;
+  border: 1px solid #0b100c;
+  border-radius: 0;
+  color: #0b1016;
+  font-family: inherit;
+  font-size: inherit;
+  min-height: 64px;
+}
+input,
+select,
+textarea {
+  margin: 0 0 16px;
+  padding: 10px 20px;
+}
+textarea {
+  min-height: 150px;
+  padding: 20px;
+  resize: vertical;
+  width: 100%;
+}
+select {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='32' height='32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline fill='none' stroke='rgb(65,71,81)' stroke-width='5'  points='2,9 16,25 30,9 '/%3E%3C/svg%3E");
+  background-position: calc(100% - 18px) 50%;
+  background-repeat: no-repeat;
+  background-size: 9px;
+  line-height: 1.75;
+  padding-right: 45px;
+}
+select::-ms-expand {
+  display: none;
+}
+[type="checkbox"],
+[type="radio"] {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 1px;
+}
+[type="checkbox"],
+[type="checkbox"]:focus,
+[type="checkbox"]:hover,
+[type="radio"],
+[type="radio"]:focus,
+[type="radio"]:hover {
+  border-color: #d8d8d8;
+  outline: 0;
+}
+[type="checkbox"] + label,
+[type="radio"] + label {
+  font-size: 18px;
+  display: inline-block;
+  padding-left: 32px;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  [type="checkbox"] + label,
+  [type="radio"] + label {
+    font-size: 20px;
+  }
+}
+[type="checkbox"] + label:before,
+[type="radio"] + label:before {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  content: "";
+  display: block;
+  height: 15px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 4px;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  width: 15px;
+}
+[type="checkbox"]:checked + label:before,
+[type="radio"]:checked + label:before {
+  background-color: #f96417;
+  border-color: #f96417;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+[type="radio"] + label:before {
+  border-radius: 50%;
+}
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.admin-bar .pageWrapper {
+  padding-top: 46px;
+}
+@media (min-width: 782px) {
+  .admin-bar .pageWrapper {
+    padding-top: 32px;
+  }
+}
+.mainContent {
+  flex: 1 0 auto;
+}
+.mainContent
+  > .atriumComponent:not(.atriumComponent--sticky):not(.atriumComponent--nested):not([is="component-atrium-back-to-top-button"]):not([is="component-atrium-not-found"]):last-child {
+  padding-bottom: 1px;
+}
+.mainContent
+  > .atriumComponent:not(.atriumComponent--sticky):not(.atriumComponent--nested):not([is="component-atrium-back-to-top-button"]):not([is="component-atrium-not-found"]):last-child
+  > .atriumComponentContentWrapper {
+  padding-bottom: 72px;
+}
+@media (min-width: 1024px) {
+  .mainContent
+    > .atriumComponent:not(.atriumComponent--sticky):not(.atriumComponent--nested):not([is="component-atrium-back-to-top-button"]):not([is="component-atrium-not-found"]):last-child
+    > .atriumComponentContentWrapper {
+    padding-bottom: 111px;
+  }
+}
+@media (min-width: 1024px) {
+  .mainContent
+    > .atriumComponent[is="component-atrium-back-to-top-button"]:last-child
+    .atriumComponentContentWrapper {
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+}
+.atriumComponent {
+  position: relative;
+  width: 100%;
+  outline: 0;
+}
+.atriumComponent.v-reduce .atriumComponentContentWrapper {
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+@media (min-width: 768px) {
+  .atriumComponent.v-reduce-desktop--top .atriumComponentContentWrapper {
+    padding-top: 1px;
+  }
+}
+.atriumComponent.v-reduce--top .atriumComponentContentWrapper {
+  padding-top: 1px;
+}
+.atriumComponent.v-reduce--bottom .atriumComponentContentWrapper {
+  padding-bottom: 1px;
+}
+@media (min-width: 768px) {
+  .atriumComponent--hideContentDesktop .atriumComponentContentWrapper {
+    min-height: 100px;
+  }
+  .atriumComponent--hideContentDesktop .atriumComponentContent {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .atriumComponent--hideContentDesktop + .atriumComponent {
+    margin-bottom: -100px;
+  }
+  .atriumComponent--hideContentDesktop
+    + .atriumComponent
+    .atriumComponentContent {
+    transform: translateY(-100px);
+  }
+}
+.atriumComponent--fullHeight {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .atriumComponent--fullHeight {
+    min-height: 0;
+  }
+}
+.atriumComponent--sticky {
+  bottom: 0;
+  box-shadow: 0 -3px 7px 0 rgba(0, 0, 0, 0.15);
+  left: 0;
+  padding: 32px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.atriumComponent--sticky .atriumComponentContentWrapper {
+  padding: 0;
+}
+@media (min-width: 1024px) {
+  .atriumComponent--sticky.sticky-all:not(.sticky--off) {
+    padding: 0;
+  }
+}
+.atriumComponent--sticky.sticky--off {
+  box-shadow: none;
+  position: static;
+  width: auto;
+}
+.atriumComponent--sticky.sticky--off .atriumComponentContentWrapper {
+  padding: inherit;
+}
+@media (min-width: 1024px) {
+  .atriumComponent--sticky:not(.sticky-all) {
+    box-shadow: none;
+    position: static;
+    width: auto;
+  }
+}
+.atriumComponent--disabled {
+  display: none;
+}
+.atriumComponentContent {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.atriumComponentContentWrapper {
+  background-color: #fff;
+  padding: 32px;
+}
+@media (min-width: 768px) {
+  .atriumComponentContentWrapper {
+    padding: 32px 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .atriumComponentContentWrapper {
+    padding: 32px 100px;
+  }
+}
+.atriumComponentContentWrapper.round-left {
+  border-top-left-radius: 50px;
+}
+@media (min-width: 768px) {
+  .atriumComponentContentWrapper.round-left {
+    border-top-left-radius: 100px;
+  }
+}
+.atriumComponentContentWrapper.round-right {
+  border-top-right-radius: 50px;
+}
+@media (min-width: 768px) {
+  .atriumComponentContentWrapper.round-right {
+    border-top-right-radius: 100px;
+  }
+}
+.mainFooter {
+  position: relative;
+  background-color: #fff;
+}
+@media (min-width: 1024px) {
+  .mainFooter {
+    position: relative;
+  }
+}
+.componentSpacing {
+  margin: 40px 0;
+}
+@media (min-width: 768px) {
+  .componentSpacing {
+    margin: 80px 0;
+  }
+}
+@media (min-width: 1280px) {
+  .componentSpacing {
+    margin: 120px 0;
+  }
+}
+.componentSpacing[class*="theme"] {
+  margin: 0;
+  padding: 40px 0;
+}
+@media (min-width: 768px) {
+  .componentSpacing[class*="theme"] {
+    padding: 80px 0;
+  }
+}
+@media (min-width: 1280px) {
+  .componentSpacing[class*="theme"] {
+    padding: 120px 0;
+  }
+}
+.centerMaxWidthContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+@media (min-width: 768px) {
+  .centerMaxWidthContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+@media (min-width: 1280px) {
+  .centerMaxWidthContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+.centerContentMaxWidth {
+  margin: 0 auto;
+  max-width: 600px;
+}
+.preContent {
+  margin: 0 auto 25px;
+  max-width: 600px;
+  text-align: center;
+}
+.preContent > :first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.preContent > :last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.preContent + .preContent {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .preContent {
+    margin-bottom: 35px;
+  }
+}
+@media (min-width: 1280px) {
+  .preContent {
+    margin-bottom: 35px;
+  }
+}
+.atrium-ipre [is="component-atrium-boxes"] .preContent,
+.atrium-ipre [is="component-atrium-faq"] .preContent,
+.atrium-ipre [is="component-atrium-internal-pages-cta"] .preContent,
+.atrium-ipre [is="component-atrium-ipre-borrowers-cta"] .description,
+.atrium-ipre [is="component-atrium-ipre-borrowers-cta"] .title,
+.atrium-ipre [is="component-atrium-ipre-carousel"] .carouselTitle,
+.atrium-ipre [is="component-atrium-ipre-interest-rates"] .preContent,
+.atrium-ipre [is="component-atrium-ipre-investors-cta"] .description,
+.atrium-ipre [is="component-atrium-ipre-investors-cta"] .title,
+.atrium-ipre [is="component-atrium-ipre-paragraph"] .paragraphHeading,
+.atrium-ipre
+  [is="component-atrium-ipre-testimonials"]
+  .testimonialComponentTitle,
+.atrium-ipre [is="component-atrium-link-boxes"] .linkBoxesDesc,
+.atrium-ipre [is="component-atrium-link-boxes"] .linkBoxesTitle,
+.atrium-ipre [is="component-atrium-mortgages-block"] .mortgagesBlockTitle,
+.atrium-ipre [is="component-atrium-paragraph"] .paragraphItem--headingTitle,
+.atrium-ipre [is="component-atrium-partners"] .partnerHeading,
+.atrium-ipre [is="component-atrium-video"] .titleText {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px !important;
+}
+.atrium-ipre .separator hr {
+  max-width: 1000px;
+}
+@media screen and (max-width: 600px) {
+  #wpadminbar {
+    position: fixed;
+  }
+}
+[is="atrium-navigation-burger"] {
+  height: 56px;
+}
+@media (min-width: 1024px) {
+  [is="atrium-navigation-burger"] {
+    display: none;
+  }
+}
+[is="atrium-navigation-burger"] .container {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  height: 56px;
+  justify-content: flex-end;
+  left: 0;
+  position: fixed;
+  right: 0;
+  transition: box-shadow 0.2s ease-out;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+[is="atrium-navigation-burger"] .container.shadow {
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.15);
+}
+.admin-bar [is="atrium-navigation-burger"] .container {
+  top: 46px;
+}
+@media (min-width: 783px) {
+  .admin-bar [is="atrium-navigation-burger"] .container {
+    top: 32px;
+  }
+}
+[is="atrium-navigation-burger"] [is="atrium-navigation-cta"] {
+  opacity: 1;
+  transition: all 0.2s ease-out;
+  visibility: visible;
+}
+[is="atrium-navigation-burger"] [is="atrium-navigation-cta"].hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+[is="atrium-navigation-burger"]
+  [is="atrium-navigation-cta"]
+  .atriumComponentContentWrapper {
+  padding: 32px 24px;
+}
+[is="atrium-navigation-burger"] .logo {
+  display: block;
+  flex-shrink: 0;
+  height: auto;
+  margin-right: auto;
+  width: 112px;
+}
+[is="atrium-navigation-burger"] .logo-image {
+  height: 100%;
+  width: auto;
+}
+[is="atrium-navigation-burger"] .hamburger {
+  cursor: pointer;
+  display: block;
+  height: 16px;
+  outline: 0;
+  position: relative;
+  width: 30px;
+}
+[is="atrium-navigation-burger"] .hamburger:after,
+[is="atrium-navigation-burger"] .hamburger:before {
+  content: "";
+}
+[is="atrium-navigation-burger"] .hamburger-barPrimary,
+[is="atrium-navigation-burger"] .hamburger-barSecondary,
+[is="atrium-navigation-burger"] .hamburger:after,
+[is="atrium-navigation-burger"] .hamburger:before {
+  background-color: #362f31;
+  display: block;
+  height: 2px;
+  left: 10px;
+  position: absolute;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
+  width: 20px;
+}
+[is="atrium-navigation-burger"] .hamburger:before {
+  top: 0;
+}
+[is="atrium-navigation-burger"] .hamburger-barPrimary,
+[is="atrium-navigation-burger"] .hamburger-barSecondary {
+  top: 7px;
+  width: 15px;
+  left: 14px;
+}
+[is="atrium-navigation-burger"] .hamburger:after {
+  top: 14px;
+}
+[is="atrium-navigation-burger"].atriumComponent-menuIsOpen .hamburger:after,
+[is="atrium-navigation-burger"].atriumComponent-menuIsOpen .hamburger:before {
+  opacity: 0;
+}
+[is="atrium-navigation-burger"].atriumComponent-menuIsOpen .hamburger:before {
+  transform: scale(0) translateY(8px);
+}
+[is="atrium-navigation-burger"].atriumComponent-menuIsOpen .hamburger:after {
+  transform: scale(0) translateY(-8px);
+}
+[is="atrium-navigation-burger"].atriumComponent-menuIsOpen
+  .hamburger-barPrimary {
+  transform: scale(1.2) rotate(45deg);
+}
+[is="atrium-navigation-burger"].atriumComponent-menuIsOpen
+  .hamburger-barSecondary {
+  transform: scale(1.2) rotate(-45deg);
+}
+html[class*="magazine_article"]
+  [is="atrium-navigation-burger"]
+  .burger-menu-item
+  .burger-menu-link[href*="coach"],
+html[class*="magazine_categories"]
+  [is="atrium-navigation-burger"]
+  .burger-menu-item
+  .burger-menu-link[href*="coach"],
+html[class*="magazine_tags"]
+  [is="atrium-navigation-burger"]
+  .burger-menu-item
+  .burger-menu-link[href*="coach"] {
+  font-weight: 500;
+}
+[is="atrium-navigation-burger"] .menu {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #fff;
+  height: calc(100% - 56px);
+  left: 0;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  position: fixed;
+  top: 56px;
+  transform: translateX(100%);
+  transition: transform 0.45s cubic-bezier(0.19, 1, 0.22, 1);
+  width: 100%;
+  z-index: 98;
+}
+[is="atrium-navigation-burger"] .menu [is="component-atrium-login-link"] {
+  position: relative;
+  top: 35px;
+  text-align: right;
+  width: 100%;
+}
+[is="atrium-navigation-burger"] .menu [is="component-atrium-login-link"] a {
+  color: #68747a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 26px;
+}
+[is="atrium-navigation-burger"]
+  .menu
+  [is="component-atrium-login-link"]
+  .atrium-icon {
+  color: #68747a;
+  height: 14px;
+  margin-left: 6px;
+  position: relative;
+  top: 2px;
+  width: 14px;
+}
+.admin-bar
+  [is="atrium-navigation-burger"]
+  .menu
+  [is="component-atrium-login-link"] {
+  position: relative;
+  top: 81px;
+}
+[is="atrium-navigation-burger"] .burger-menu {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 70px 0 0;
+}
+[is="atrium-navigation-burger"] .burger-menu .active {
+  font-weight: 500;
+}
+[is="atrium-navigation-burger"] .burger-menu .sub-menu {
+  display: block;
+  list-style: none;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding: 0 0 0 16px;
+}
+[is="atrium-navigation-burger"] .burger-menu .sub-menu-item {
+  padding-bottom: 8px;
+}
+[is="atrium-navigation-burger"] .burger-menu .sub-menu-item:last-child {
+  margin-bottom: 30px;
+}
+[is="atrium-navigation-burger"] .burger-menu .sub-menu-link {
+  color: #362f31;
+  font-size: 14px;
+  padding: 0 25px;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  [is="atrium-navigation-burger"] .burger-menu .sub-menu-link {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+.admin-bar [is="atrium-navigation-burger"] .burger-menu {
+  margin-top: 116px;
+  top: 102px;
+}
+@media (min-width: 783px) {
+  .admin-bar [is="atrium-navigation-burger"] .burger-menu {
+    top: 88px;
+  }
+}
+[is="atrium-navigation-burger"] .burger-menu-item {
+  border-bottom: 1px solid #f5f5f5;
+}
+[is="atrium-navigation-burger"] .burger-menu-link {
+  color: #362f31;
+  display: block;
+  font-size: 16px;
+  padding: 12px 60px 12px 25px;
+  text-decoration: none;
+  position: relative;
+}
+[is="atrium-navigation-burger"] .burger-menu-link:after {
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  right: 25px;
+  position: absolute;
+  top: 22px;
+  transition: top 0.15s ease-in-out, transform 0.15s ease-in-out;
+  transform: rotate(-45deg);
+}
+@media (min-width: 768px) {
+  [is="atrium-navigation-burger"] .burger-menu-link {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+[is="atrium-navigation-burger"]
+  .burger-menu-item--collapsed
+  .burger-menu-link:after {
+  top: 17px;
+  transform: rotate(135deg);
+}
+[is="atrium-navigation-burger"].atriumComponent-menuIsOpen .menu {
+  transform: translateX(0);
+}
+[is="atrium-navigation-burger"]
+  .burger-languages[is="atrium-language-navigation"] {
+  display: block;
+  margin-top: 30px;
+  padding: 0 25px;
+}
+@media (min-width: 768px) {
+  [is="atrium-navigation-burger"]
+    .burger-languages[is="atrium-language-navigation"] {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+[is="atrium-navigation-burger"]
+  .burger-languages[is="atrium-language-navigation"]
+  ul {
+  justify-content: flex-start;
+}
+[is="atrium-navigation-burger"]
+  .burger-languages[is="atrium-language-navigation"]
+  ul
+  li {
+  margin: 0 36px 0 0;
+}
+[is="atrium-navigation-burger"]
+  .burger-languages[is="atrium-language-navigation"]
+  ul
+  li:before {
+  top: 7px;
+  left: -19px;
+}
+[is="atrium-navigation-burger"] .profiler {
+  padding: 0 25px;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  [is="atrium-navigation-burger"] .profiler {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+[is="atrium-navigation-burger"] .profiler h6 {
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 24px;
+  color: #8998a1;
+}
+[is="atrium-navigation-burger"] .profiler hr {
+  margin: 0;
+}
+[is="atrium-navigation-burger"] .profiler-burger {
+  margin-top: 15px;
+  margin-bottom: 16px;
+}
+[is="atrium-navigation-burger"] .profiler-burger ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+[is="atrium-navigation-burger"] .profiler-burger li {
+  padding-bottom: 16px;
+}
+[is="atrium-navigation-burger"] .profiler-burger li.current a {
+  color: #f45f65;
+}
+[is="atrium-navigation-burger"] .profiler-burger a {
+  text-decoration: none;
+  color: #68747a;
+  font-size: 16px;
+  line-height: 24px;
+}
+[is="atrium-navigation-burger"] .profiler-burger a:last-of-type {
+  margin-bottom: 32px;
+}
+html[class*="magazine_article"] .menu > li > .menu-link[href*="coach"],
+html[class*="magazine_categories"] .menu > li > .menu-link[href*="coach"],
+html[class*="magazine_tags"] .menu > li > .menu-link[href*="coach"] {
+  font-weight: 500;
+}
+.profiler-navigation-menu {
+  display: none;
+  background-color: #f5f5f5;
+  padding: 0 32px;
+  height: 40px;
+}
+@media (min-width: 1024px) {
+  .profiler-navigation-menu {
+    display: block;
+  }
+}
+@media (min-width: 1440px) {
+  .profiler-navigation-menu {
+    padding: 0 100px;
+  }
+}
+.profiler-navigation-menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.profiler-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.profiler-menu li {
+  position: relative;
+  display: inline-block;
+}
+.profiler-menu li:before {
+  content: "";
+  width: 1px;
+  background-color: #8998a1;
+  position: absolute;
+  left: -16px;
+  top: 7px;
+  height: 12px;
+}
+.profiler-menu li:first-child:before {
+  display: none;
+}
+.profiler-menu li.current a {
+  color: #f45f65;
+}
+.profiler-menu a {
+  font-size: 13px;
+  height: 20px;
+  line-height: 20px;
+  padding-right: 26px;
+  align-items: center;
+  color: #68747a;
+}
+.profiler-menu a:hover {
+  color: #68747a;
+}
+[is="atrium-language-navigation"] ul {
+  display: block;
+  list-style: none;
+  padding: 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 14px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+[is="atrium-language-navigation"] ul li {
+  margin-left: 38px;
+  position: relative;
+}
+[is="atrium-language-navigation"] ul li:empty {
+  display: none;
+}
+[is="atrium-language-navigation"] ul li a {
+  color: #68747a;
+  text-decoration: none;
+}
+[is="atrium-language-navigation"] ul li a:hover {
+  color: #68747a;
+}
+[is="atrium-language-navigation"] ul li.current a {
+  color: #f45f65;
+}
+[is="atrium-language-navigation"] ul li:after {
+  content: "";
+  width: 1px;
+  background-color: #8998a1;
+  position: absolute;
+  right: -18px;
+  top: 7px;
+  height: 12px;
+}
+@media (min-width: 1280px) {
+  [is="atrium-language-navigation"] ul li:after {
+    top: 5px;
+  }
+}
+[is="atrium-language-navigation"] ul li:last-child:after {
+  display: none;
+}
+@media (min-width: 1024px) {
+  [is="atrium-language-navigation"] {
+    height: 40px;
+    display: block;
+    background-color: #f5f5f5;
+  }
+}
+[is="atrium-language-navigation"] [is="component-atrium-login-link"] a {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+  transition: none;
+}
+[is="atrium-language-navigation"] [is="component-atrium-login-link"] a:link,
+[is="atrium-language-navigation"]
+  [is="component-atrium-login-link"]
+  a:link
+  .atrium-icon,
+[is="atrium-language-navigation"] [is="component-atrium-login-link"] a:visited,
+[is="atrium-language-navigation"]
+  [is="component-atrium-login-link"]
+  a:visited
+  .atrium-icon {
+  color: #68747a;
+}
+[is="atrium-language-navigation"] [is="component-atrium-login-link"] a:active,
+[is="atrium-language-navigation"]
+  [is="component-atrium-login-link"]
+  a:active
+  .atrium-icon,
+[is="atrium-language-navigation"] [is="component-atrium-login-link"] a:hover,
+[is="atrium-language-navigation"]
+  [is="component-atrium-login-link"]
+  a:hover
+  .atrium-icon {
+  color: #362f31;
+}
+[is="atrium-language-navigation"]
+  [is="component-atrium-login-link"]
+  .atrium-icon {
+  color: #68747a;
+  height: 14px;
+  margin-left: 6px;
+  position: relative;
+  top: 2px;
+  width: 14px;
+}
+[is^="atrium-navigation-main"] {
+  border-bottom: 1px solid #f5f5f5;
+  display: none;
+  z-index: 2;
+}
+[is^="atrium-navigation-main"].shadow {
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.15);
+}
+[is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"] {
+  height: 56px;
+  display: block;
+}
+@media (min-width: 1024px) {
+  [is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"] {
+    height: auto;
+  }
+}
+[is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"]
+  .container,
+[is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"] .wrapper {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+[is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"]
+  .container {
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+@media (min-width: 1024px) {
+  [is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"]
+    .container {
+    height: 100px;
+    padding: 29px 0;
+  }
+}
+[is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"] .wrapper {
+  padding: 0;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  [is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"]
+    .wrapper {
+    padding: 0 32px;
+  }
+}
+@media (min-width: 1440px) {
+  [is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"]
+    .wrapper {
+    padding: 0 100px;
+  }
+}
+[is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"] .logo {
+  width: 112px;
+  flex: 0 0 112px;
+  height: auto;
+}
+@media (min-width: 1024px) {
+  [is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"] .logo {
+    width: 160px;
+    flex: 0 0 160px;
+  }
+}
+[is^="atrium-navigation-main"][is~="atrium-navigation-main--minimal"]
+  .logo-image {
+  height: auto;
+}
+@media (min-width: 1024px) {
+  [is^="atrium-navigation-main"] {
+    display: block;
+  }
+}
+[is^="atrium-navigation-main"] .wrapper {
+  background-color: #fff;
+  height: 100px;
+}
+@media (min-width: 1024px) {
+  [is^="atrium-navigation-main"] .wrapper {
+    padding: 0 32px;
+  }
+}
+@media (min-width: 1440px) {
+  [is^="atrium-navigation-main"] .wrapper {
+    padding: 0 100px;
+  }
+}
+[is^="atrium-navigation-main"] .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 29px 0;
+  position: relative;
+}
+[is^="atrium-navigation-main"] .logo {
+  align-items: center;
+  align-self: center;
+  bottom: 0;
+  display: flex;
+  flex: 0 0 160px;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  max-width: 160px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+@media (max-width: 1150px) {
+  [is^="atrium-navigation-main"].atrium-navigation-main--sore.atrium-navigation-main-fr
+    .logo {
+    max-width: 135px;
+  }
+}
+[is^="atrium-navigation-main"] .menu {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 1;
+}
+@media (min-width: 1024px) {
+  [is^="atrium-navigation-main"] .menu {
+    width: 100%;
+  }
+}
+[is^="atrium-navigation-main"] .menu-submenu {
+  border-radius: 5px;
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.04);
+  margin-top: 10px;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.25s linear;
+}
+[is^="atrium-navigation-main"] .menu-submenu .menu-link {
+  font-size: 14px;
+}
+[is^="atrium-navigation-main"] .menu-submenu ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+[is^="atrium-navigation-main"] .menu-submenu ul li:first-of-type {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+[is^="atrium-navigation-main"] .menu-submenu ul li:last-of-type {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+[is^="atrium-navigation-main"] .menu-link {
+  color: #362f31;
+  display: inline-block;
+  font-size: 16px;
+  padding: 7px 0 7px 18px;
+  text-decoration: none;
+  position: relative;
+  white-space: nowrap;
+}
+[is^="atrium-navigation-main"] .menu-link:hover {
+  color: #362f31;
+  font-weight: 500;
+}
+[is^="atrium-navigation-main"] .menu-link:before {
+  display: block;
+  content: attr(title);
+  font-weight: 500;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+[is^="atrium-navigation-main"] .menu-link--parent {
+  padding-right: 18px;
+}
+[is^="atrium-navigation-main"] .menu-link--parent:after {
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: "";
+  width: 7px;
+  height: 7px;
+  top: 14px;
+  position: absolute;
+  transition: top 0.15s ease-in-out, transform 0.15s ease-in-out;
+  transform: rotate(135deg);
+}
+[is^="atrium-navigation-main"] .menu-item {
+  position: relative;
+  padding: 10px;
+  overflow: hidden;
+}
+@media (min-width: 1280px) {
+  [is^="atrium-navigation-main"] .menu-item {
+    padding: 10px 22px;
+  }
+}
+[is^="atrium-navigation-main"] .menu-item:hover {
+  overflow: visible;
+}
+[is^="atrium-navigation-main"] .menu-item:hover .menu-submenu {
+  opacity: 1;
+}
+[is^="atrium-navigation-main"] .menu-item:hover .menu-link:after {
+  top: 17px;
+  transform: rotate(-45deg);
+}
+[is^="atrium-navigation-main"] .menu-item:focus-within {
+  overflow: visible;
+}
+[is^="atrium-navigation-main"] .menu-item:focus-within .menu-submenu {
+  opacity: 1;
+}
+[is^="atrium-navigation-main"] .menu-item:focus-within .menu-link:after {
+  top: 17px;
+  transform: rotate(-45deg);
+}
+[is^="atrium-navigation-main"] .menu-item .active {
+  font-weight: 500;
+}
+[is^="atrium-navigation-main"] .menu-item .menu {
+  flex-flow: wrap;
+  margin-left: 0;
+}
+[is^="atrium-navigation-main"] .menu-item .menu .menu-link {
+  white-space: nowrap;
+  display: block;
+  width: 100%;
+}
+[is^="atrium-navigation-main"] .menu-item .menu .menu-link:after {
+  display: none;
+}
+[is^="atrium-navigation-main"] .menu-item .menu-item {
+  background-color: #fff;
+  border-bottom: 1px solid #f5f5f5;
+  flex: 0 0 100%;
+  font-size: 14px;
+  max-width: 100%;
+  padding: 0;
+}
+[is^="atrium-navigation-main"] .menu-item .menu-item .menu-link {
+  padding: 10px 50px 10px 20px;
+  width: 100%;
+}
+[is^="atrium-navigation-main"] .menu-item .menu-item:hover {
+  background-color: #f5f5f5;
+}
+@media (max-width: 1150px) {
+  [is^="atrium-navigation-main"].atrium-navigation-main--sore.atrium-navigation-main-fr
+    .menu
+    > .menu-item {
+    padding: 10px 5px;
+  }
+}
+@media (max-width: 1080px) {
+  [is^="atrium-navigation-main"].atrium-navigation-main--sore.atrium-navigation-main-en
+    .menu
+    > .menu-item,
+  [is^="atrium-navigation-main"].atrium-navigation-main--sore.atrium-navigation-main-it
+    .menu
+    > .menu-item {
+    padding: 10px 5px;
+  }
+}
+[is^="atrium-navigation-main"] [is="atrium-navigation-cta"] {
+  align-self: center;
+  display: block;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  transition: all 0.2s ease-out;
+  visibility: visible;
+  z-index: 3;
+}
+[is^="atrium-navigation-main"] [is="atrium-navigation-cta"].hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+[is^="atrium-navigation-main"]
+  [is="atrium-navigation-cta"]
+  .atriumComponentContentWrapper {
+  padding: 0;
+}
+[is^="component-atrium-page-header"].not-visible {
+  opacity: 0;
+}
+[is^="component-atrium-page-header"] [is="component-atrium-breadcrumbs"] {
+  position: absolute;
+  top: -15px;
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"] [is="component-atrium-breadcrumbs"] {
+    top: -10px;
+  }
+}
+@media (min-width: 1440px) {
+  [is^="component-atrium-page-header"] [is="component-atrium-breadcrumbs"] {
+    top: -40px;
+  }
+}
+[is^="component-atrium-page-header"]
+  [is="component-atrium-breadcrumbs"]
+  .atriumComponentContentWrapper {
+  padding: 0;
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"]
+    [is="component-atrium-breadcrumbs"]
+    .atriumComponentContentWrapper {
+    padding: 0;
+  }
+}
+@media (min-width: 1440px) {
+  [is^="component-atrium-page-header"]
+    [is="component-atrium-breadcrumbs"]
+    .atriumComponentContentWrapper {
+    padding: 0;
+  }
+}
+[is^="component-atrium-page-header"]
+  [is="component-atrium-breadcrumbs"]
+  .atriumComponentContent {
+  max-width: none;
+}
+[is^="component-atrium-page-header"] .atriumComponentContent {
+  position: relative;
+}
+[is^="component-atrium-page-header"] .atriumComponentContentWrapper {
+  padding: 24px 32px;
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"] .atriumComponentContentWrapper {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 1440px) {
+  [is^="component-atrium-page-header"] .atriumComponentContentWrapper {
+    padding: 55px 90px 40px 100px;
+  }
+}
+[is^="component-atrium-page-header"] .no--background {
+  border-bottom-right-radius: 48px;
+}
+[is^="component-atrium-page-header"] .no--background .header-content {
+  align-items: center;
+  display: flex;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .no--background .header-content {
+    padding: 35px 0 44px;
+  }
+}
+[is^="component-atrium-page-header"]
+  .no--background
+  .header-content
+  .header-text {
+  flex: 0 0 100%;
+}
+[is^="component-atrium-page-header"] .no--background .title-text {
+  color: #362f31;
+}
+[is^="component-atrium-page-header"] .no--background .title-text h1 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 36px;
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"] .no--background .title-text h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+[is^="component-atrium-page-header"] .align-center {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .align-center {
+    text-align: left;
+  }
+}
+[is^="component-atrium-page-header"] .background {
+  background-repeat: no-repeat;
+  width: 100%;
+}
+[is^="component-atrium-page-header"] .background p {
+  margin-bottom: 0;
+  line-height: 24px;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .background p {
+    line-height: 28px;
+  }
+}
+@media (max-width: 768px) {
+  [is^="component-atrium-page-header"] .background--festhypothek,
+  [is^="component-atrium-page-header"] .background--homepage,
+  [is^="component-atrium-page-header"] .background--hypothekarzinsen,
+  [is^="component-atrium-page-header"] .background--qa {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"]
+    .background--hypothekarzinsen
+    + .atriumComponentContentWrapper
+    .header-text {
+    flex: 0 0 45%;
+  }
+}
+@media (min-width: 1280px) {
+  [is^="component-atrium-page-header"]
+    .background--hypothekarzinsen
+    + .atriumComponentContentWrapper
+    .description-text {
+    width: 90%;
+  }
+}
+[is^="component-atrium-page-header"] .header-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+[is^="component-atrium-page-header"] .header-content .illustration--header {
+  background-size: contain;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .header-content {
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+}
+[is^="component-atrium-page-header"] .header-content .eye-catcher {
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #362f31;
+  color: #fff;
+  padding: 16px 8px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: -50px;
+  display: flex;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .header-content .eye-catcher {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"] .header-content .eye-catcher {
+    height: 153px;
+    width: 153px;
+    padding: 24px 16px;
+    font-size: 18px;
+    line-height: 24px;
+    align-self: flex-start;
+  }
+}
+[is^="component-atrium-page-header"] .header-content .eye-catcher p {
+  align-self: center;
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+[is^="component-atrium-page-header"] .header-text {
+  flex: 0 0 100%;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .header-text {
+    flex: 0 0 48%;
+  }
+}
+[is^="component-atrium-page-header"] .hideMobileIllustration {
+  display: none;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .hideMobileIllustration {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .showMobileIllustration {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .header-bg {
+    position: absolute;
+    right: 0;
+    background-size: cover;
+    background-position: 0 -15%;
+    height: 100%;
+    width: 66%;
+  }
+  [is^="component-atrium-page-header"] .header-bg.background--qa {
+    max-width: 2274px;
+  }
+  [is^="component-atrium-page-header"] .header-bg.background--homepage {
+    background-position: 0 -15%;
+    background-size: cover;
+    max-width: 939px;
+  }
+}
+[is^="component-atrium-page-header"] .illustration {
+  margin: 32px auto 0;
+  min-height: 130px;
+  max-width: 330px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .illustration {
+    background-position: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 50%;
+    margin-top: 0;
+    max-width: none;
+    min-height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+  }
+}
+@media (min-width: 1440px) {
+  [is^="component-atrium-page-header"] .illustration {
+    background-position: center 50%;
+  }
+}
+[is^="component-atrium-page-header"] .illustration--presse-header {
+  max-width: 545px;
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"]
+    .illustration--illustration-finanzierungscertifikat-desktop {
+    max-width: 385px;
+    left: 10%;
+  }
+}
+@media (min-width: 1280px) {
+  [is^="component-atrium-page-header"]
+    .illustration--illustration-finanzierungscertifikat-desktop {
+    max-width: 438px;
+  }
+}
+[is^="component-atrium-page-header"] .illustration--kontakt-header {
+  max-width: 426px;
+}
+[is^="component-atrium-page-header"] .illustration--nhb-reminder-desktop {
+  max-width: 437px;
+}
+[is^="component-atrium-page-header"] .illustration--advisory-page-illustration {
+  max-width: 500px;
+}
+[is^="component-atrium-page-header"] .illustration--partner-header {
+  max-width: 550px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--product-online-hypothek--header {
+  max-width: 476px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--product-hypotek-ablosen-header {
+  max-width: 545px;
+}
+[is^="component-atrium-page-header"] .illustration--product-saron-header {
+  max-width: 548px;
+}
+[is^="component-atrium-page-header"] .illustration--festhypothek-header {
+  max-width: 493px;
+}
+[is^="component-atrium-page-header"] .illustration--hypothekenvergleich-header {
+  max-width: 420px;
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"]
+    .illustration--hypothekenvergleich-header {
+    left: 9%;
+  }
+}
+[is^="component-atrium-page-header"] .illustration--what-is-a-mortgage {
+  max-width: 418px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-desktop-hypothek {
+  max-width: 520px;
+}
+[is^="component-atrium-page-header"] .illustration--hypothekarzinsen-header {
+  max-width: 479px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustratiopn-what-is-key4-header-desktop {
+  max-width: 710px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-what-is-key4-header-mobile {
+  max-width: 508px;
+}
+[is^="component-atrium-page-header"] .illustration--faq-header {
+  max-width: 421px;
+}
+[is^="component-atrium-page-header"] .illustration--mortgage {
+  max-width: 520px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-callback-desktop,
+[is^="component-atrium-page-header"]
+  .illustration--illustration-callback-mobile {
+  max-width: 390px;
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"]
+    .illustration--illustration-callback-desktop {
+    left: 8%;
+  }
+}
+[is^="component-atrium-page-header"]
+  .illustration--product-libor-hypothek-header {
+  max-width: 520px;
+}
+[is^="component-atrium-page-header"] .illustration--illustration-calculator {
+  max-width: 335px;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .illustration--illustration-calculator {
+    left: 12%;
+  }
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"] .illustration--illustration-calculator {
+    left: 16%;
+  }
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-video-page-desktop {
+  max-width: 335px;
+}
+@media (min-width: 1024px) {
+  [is^="component-atrium-page-header"]
+    .illustration--illustration-video-page-desktop {
+    margin-left: 65%;
+  }
+}
+@media (min-width: 1440px) {
+  [is^="component-atrium-page-header"]
+    .illustration--illustration-video-page-desktop {
+    margin-left: 75%;
+  }
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-video-page-mobile {
+  max-width: 290px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-home-owner-desktop {
+  max-width: 343px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-home-owner-mobile {
+  max-width: 247px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-finanzierungscertifikat-mobile {
+  max-width: 315px;
+}
+[is^="component-atrium-page-header"] .illustration--illustration-phone-info,
+[is^="component-atrium-page-header"]
+  .illustration--illustration-phone-info--desktop {
+  max-width: 245px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-phone-info--mobile {
+  max-width: 196px;
+}
+[is^="component-atrium-page-header"] .illustration--ratgeber-teaser {
+  max-width: 335px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-zinsprognose-desktop {
+  max-width: 350px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-appraisal-results-desktop {
+  max-width: 384px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-appraisal-results-mobile {
+  max-width: 314px;
+}
+@media (min-width: 1440px) {
+  [is^="component-atrium-page-header"]
+    .illustration--ipre-anlagekriterien-header {
+    max-width: 485px;
+    left: 8%;
+  }
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-interest-cream-desktop {
+  max-width: 359px;
+}
+[is^="component-atrium-page-header"]
+  .illustration--illustration-interest-cream-mobile {
+  max-width: 258px;
+}
+[is^="component-atrium-page-header"] .title-text {
+  color: #362f31;
+}
+[is^="component-atrium-page-header"] .title-text h1 {
+  margin-bottom: 0;
+}
+[is^="component-atrium-page-header"] .description-text {
+  color: #68747a;
+}
+[is^="component-atrium-page-header"] .title-text + .description-text {
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  [is^="component-atrium-page-header"] .title-text + .description-text {
+    margin-top: 16px;
+  }
+}
+[is="component-atrium-modal"] .modal-wrapper {
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 56px);
+  top: 56px;
+  left: 0;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 20;
+  pointer-events: none;
+  overflow-y: auto;
+  will-change: transform, opacity;
+  transform: scale(1.15);
+  transition: transform 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67),
+    opacity 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+[is="component-atrium-modal"] .modal-wrapper.in {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+  transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67),
+    opacity 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+@media (min-width: 768px) {
+  [is="component-atrium-modal"] .modal-wrapper {
+    height: 100%;
+    top: 0;
+  }
+}
+[is="component-atrium-modal"] .modal-window {
+  position: absolute;
+  width: 312px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+[is="component-atrium-modal"] .modal-window .modal-close {
+  position: absolute;
+  cursor: pointer;
+  top: 19px;
+  right: 19px;
+}
+[is="component-atrium-modal"] .modal-window .modal-close .atrium-icon {
+  width: 28px;
+  height: 28px;
+}
+[is="component-atrium-modal"] .modal-window .modal-description {
+  font-size: 14px;
+  line-height: 22px;
+  color: #5c6a73;
+  max-width: 219px;
+  margin-left: auto;
+  margin-right: auto;
+}
+[is="component-atrium-modal"] .modal-window .modal-confirm {
+  align-items: center;
+  display: flex;
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 100%;
+}
+[is="component-atrium-modal"] .modal-window .modal-cancel {
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-modal"] .modal-window {
+    width: 588px;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+  }
+  [is="component-atrium-modal"] .modal-window .modal-close {
+    top: 28px;
+    right: 38px;
+  }
+  [is="component-atrium-modal"] .modal-window .modal-cancel,
+  [is="component-atrium-modal"] .modal-window .modal-description {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  [is="component-atrium-modal"] .modal-window .modal-description {
+    max-width: 515px;
+  }
+  [is="component-atrium-modal"] .modal-window .modal-confirm {
+    max-width: 280px;
+  }
+}
+[is="component-atrium-modal"] .modal-content {
+  position: relative;
+  padding: 60px 16px 24px;
+}
+[is="component-atrium-modal"] .modal-title {
+  margin: 0 auto;
+}
+[is="component-atrium-modal"] .modal-description {
+  margin-bottom: 28px;
+}
+[is="component-atrium-modal"] .modal-description,
+[is="component-atrium-modal"] .modal-title {
+  text-align: center;
+}
+[is="component-atrium-modal"] .modal-illustration {
+  height: 128px;
+  margin-bottom: 50px;
+}
+[is="component-atrium-modal"] .modal-action button {
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-modal"] .modal-content {
+    padding: 120px 49px 56px 54px;
+  }
+  [is="component-atrium-modal"] .modal-description {
+    margin-bottom: 69px;
+  }
+  [is="component-atrium-modal"] .modal-illustration {
+    height: 168px;
+    margin-bottom: 100px;
+  }
+}
+[is="component-atrium-modal"].modal--style-2 .modal-content {
+  position: relative;
+  padding: 40px 24px;
+}
+[is="component-atrium-modal"].modal--style-2 .modal-title {
+  margin-bottom: 22px;
+}
+[is="component-atrium-modal"].modal--style-2 .modal-description {
+  margin-bottom: 32px;
+  max-width: 219px;
+}
+[is="component-atrium-modal"].modal--style-2 .modal-description,
+[is="component-atrium-modal"].modal--style-2 .modal-title {
+  text-align: center;
+}
+[is="component-atrium-modal"].modal--style-2 .modal-illustration {
+  height: 110px;
+  margin-bottom: 20px;
+}
+[is="component-atrium-modal"].modal--style-2 .modal-action {
+  text-align: center;
+}
+[is="component-atrium-modal"].modal--style-2 .modal-action a {
+  display: inline-flex;
+}
+[is="component-atrium-modal"].modal--style-2 .modal-action button {
+  margin-bottom: 32px;
+}
+[is="component-atrium-modal"].modal--style-2 .modal-action .alert {
+  text-align: left;
+  opacity: 0;
+  height: 0;
+  margin-top: -32px;
+  pointer-events: none;
+  transition: all 0.5s cubic-bezier(0.17, 0.04, 0.03, 0.94);
+}
+[is="component-atrium-modal"].modal--style-2 .modal-action .alert.show {
+  opacity: 1;
+  height: auto;
+  margin-top: 32px;
+  pointer-events: visible;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-modal"].modal--style-2 .modal-content {
+    padding: 56px;
+  }
+  [is="component-atrium-modal"].modal--style-2
+    .modal-content
+    .modal-description,
+  [is="component-atrium-modal"].modal--style-2
+    .modal-content
+    .modal-illustration {
+    padding-left: 26px;
+    padding-right: 23px;
+  }
+  [is="component-atrium-modal"].modal--style-2 .modal-description {
+    margin-bottom: 56px;
+    max-width: 428px;
+  }
+  [is="component-atrium-modal"].modal--style-2 .modal-illustration {
+    height: 152px;
+    margin-bottom: 16px;
+  }
+  [is="component-atrium-modal"].modal--style-2 .modal-action button {
+    margin-bottom: 40px;
+  }
+}
+[is="component-atrium-modal"].modal--privacy-settings .modal-wrapper {
+  transform: scale(1);
+}
+[is="component-atrium-modal"].modal--privacy-settings .modal-heading {
+  background-color: #e5f0ea;
+  border-radius: 5px;
+  border-bottom-right-radius: 50px;
+  padding: 30px 0;
+  text-align: center;
+}
+[is="component-atrium-modal"].modal--privacy-settings .modal-heading h1 {
+  margin: 0;
+}
+[is="component-atrium-modal"].modal--privacy-settings .modal-content {
+  position: relative;
+  padding: 0;
+}
+[is="component-atrium-modal"].modal--privacy-settings .modal-content-body {
+  padding: 16px 24px 24px;
+}
+[is="component-atrium-modal"].modal--privacy-settings .modal-window {
+  margin: 0 auto;
+  top: 25px;
+  width: 90%;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-modal"].modal--privacy-settings .modal-heading {
+    padding: 50px;
+  }
+  [is="component-atrium-modal"].modal--privacy-settings .modal-window {
+    max-width: 1000px;
+    top: 0;
+    transform: translate(-50%, 80px);
+    width: 100%;
+  }
+  [is="component-atrium-modal"].modal--privacy-settings .modal-content {
+    padding: 0;
+  }
+  [is="component-atrium-modal"].modal--privacy-settings .modal-content-body {
+    padding: 32px 64px 64px;
+  }
+}
+@media (min-width: 1024px) {
+  [is="component-atrium-modal"].modal--privacy-settings .modal-window {
+    transform: translate(-50%, 25px);
+  }
+}
+[is="component-atrium-geolocation-alert"] .modal--style-2 .modal-cancel {
+  display: block;
+}
+@media print {
+  *,
+  :after,
+  :before {
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    text-shadow: none !important;
+  }
+  .mainFooter,
+  .mainHeader,
+  .wpFooter {
+    display: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  [href]:after {
+    content: "(" attr(href) ")";
+    display: inline;
+  }
+  .button[href] {
+    max-width: 100%;
+  }
+  abbr[title]:after {
+    content: "(" attr(title) ")";
+  }
+  [href^="#"]:after,
+  [href^="javascript:"]:after {
+    content: "";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  blockquote,
+  pre {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  img,
+  tr {
+    page-break-inside: avoid;
+  }
+  h2,
+  h3,
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+@font-face {
+  font-family: swiper-icons;
+  src: url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  --swiper-theme-color: #007aff;
+}
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+.swiper-container-vertical > .swiper-wrapper {
+  flex-direction: column;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  transform: translateZ(0);
+}
+.swiper-container-multirow > .swiper-wrapper {
+  flex-wrap: wrap;
+}
+.swiper-container-multirow-column > .swiper-wrapper {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.swiper-container-free-mode > .swiper-wrapper {
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+.swiper-slide-invisible-blank {
+  visibility: hidden;
+}
+.swiper-container-autoheight,
+.swiper-container-autoheight .swiper-slide {
+  height: auto;
+}
+.swiper-container-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height;
+}
+.swiper-container-3d {
+  perspective: 1200px;
+}
+.swiper-container-3d .swiper-cube-shadow,
+.swiper-container-3d .swiper-slide,
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top,
+.swiper-container-3d .swiper-wrapper {
+  transform-style: preserve-3d;
+}
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+.swiper-container-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-3d .swiper-slide-shadow-top {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-3d .swiper-slide-shadow-bottom {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-css-mode > .swiper-wrapper {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.swiper-container-css-mode > .swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.swiper-container-css-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: start start;
+}
+.swiper-container-horizontal.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: x mandatory;
+}
+.swiper-container-vertical.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: y mandatory;
+}
+:root {
+  --swiper-navigation-size: 44px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(var(--swiper-navigation-size) * -1 / 2);
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  text-transform: none;
+  font-variant: normal;
+  line-height: 1;
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+}
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: "prev";
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  right: 10px;
+  left: auto;
+}
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: "next";
+}
+.swiper-button-next.swiper-button-white,
+.swiper-button-prev.swiper-button-white {
+  --swiper-navigation-color: #fff;
+}
+.swiper-button-next.swiper-button-black,
+.swiper-button-prev.swiper-button-black {
+  --swiper-navigation-color: #000;
+}
+.swiper-button-lock {
+  display: none;
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: opacity 0.3s;
+  transform: translateZ(0);
+  z-index: 10;
+}
+.swiper-pagination.swiper-pagination-hidden {
+  opacity: 0;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+.swiper-pagination-bullets-dynamic {
+  overflow: hidden;
+  font-size: 0;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transform: scale(0.33);
+  position: relative;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active,
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+  transform: scale(1);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+  transform: scale(0.66);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+  transform: scale(0.33);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+  transform: scale(0.66);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+  transform: scale(0.33);
+}
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: 0.2;
+}
+button.swiper-pagination-bullet {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
+.swiper-container-vertical > .swiper-pagination-bullets {
+  right: 10px;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+}
+.swiper-container-vertical
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 6px 0;
+  display: block;
+}
+.swiper-container-vertical
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+}
+.swiper-container-vertical
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet {
+  display: inline-block;
+  transition: transform 0.2s, top 0.2s;
+}
+.swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 4px;
+}
+.swiper-container-horizontal
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.swiper-container-horizontal
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet {
+  transition: transform 0.2s, left 0.2s;
+}
+.swiper-container-horizontal.swiper-container-rtl
+  > .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet {
+  transition: transform 0.2s, right 0.2s;
+}
+.swiper-pagination-progressbar {
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transform-origin: left top;
+}
+.swiper-container-rtl
+  .swiper-pagination-progressbar
+  .swiper-pagination-progressbar-fill {
+  transform-origin: right top;
+}
+.swiper-container-horizontal > .swiper-pagination-progressbar,
+.swiper-container-vertical
+  > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  width: 100%;
+  height: 4px;
+  left: 0;
+  top: 0;
+}
+.swiper-container-horizontal
+  > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-container-vertical > .swiper-pagination-progressbar {
+  width: 4px;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.swiper-pagination-white {
+  --swiper-pagination-color: #fff;
+}
+.swiper-pagination-black {
+  --swiper-pagination-color: #000;
+}
+.swiper-pagination-lock {
+  display: none;
+}
+.swiper-scrollbar {
+  border-radius: 10px;
+  position: relative;
+  -ms-touch-action: none;
+  background: rgba(0, 0, 0, 0.1);
+}
+.swiper-container-horizontal > .swiper-scrollbar {
+  position: absolute;
+  left: 1%;
+  bottom: 3px;
+  z-index: 50;
+  height: 5px;
+  width: 98%;
+}
+.swiper-container-vertical > .swiper-scrollbar {
+  position: absolute;
+  right: 3px;
+  top: 1%;
+  z-index: 50;
+  width: 5px;
+  height: 98%;
+}
+.swiper-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  left: 0;
+  top: 0;
+}
+.swiper-scrollbar-cursor-drag {
+  cursor: move;
+}
+.swiper-scrollbar-lock {
+  display: none;
+}
+.swiper-zoom-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.swiper-zoom-container > canvas,
+.swiper-zoom-container > img,
+.swiper-zoom-container > svg {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.swiper-slide-zoomed {
+  cursor: move;
+}
+.swiper-lazy-preloader {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -21px;
+  margin-top: -21px;
+  z-index: 10;
+  transform-origin: 50%;
+  animation: swiper-preloader-spin 1s linear infinite;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));
+  border-top: 4px solid transparent;
+}
+.swiper-lazy-preloader-white {
+  --swiper-preloader-color: #fff;
+}
+.swiper-lazy-preloader-black {
+  --swiper-preloader-color: #000;
+}
+@keyframes swiper-preloader-spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.swiper-container .swiper-notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000;
+}
+.swiper-container-fade.swiper-container-free-mode .swiper-slide {
+  transition-timing-function: ease-out;
+}
+.swiper-container-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+.swiper-container-fade .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+.swiper-container-fade .swiper-slide-active,
+.swiper-container-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+.swiper-container-cube {
+  overflow: visible;
+}
+.swiper-container-cube .swiper-slide {
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 1;
+  visibility: hidden;
+  transform-origin: 0 0;
+  width: 100%;
+  height: 100%;
+}
+.swiper-container-cube .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+.swiper-container-cube.swiper-container-rtl .swiper-slide {
+  transform-origin: 100% 0;
+}
+.swiper-container-cube .swiper-slide-active,
+.swiper-container-cube .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+.swiper-container-cube .swiper-slide-active,
+.swiper-container-cube .swiper-slide-next,
+.swiper-container-cube .swiper-slide-next + .swiper-slide,
+.swiper-container-cube .swiper-slide-prev {
+  pointer-events: auto;
+  visibility: visible;
+}
+.swiper-container-cube .swiper-slide-shadow-bottom,
+.swiper-container-cube .swiper-slide-shadow-left,
+.swiper-container-cube .swiper-slide-shadow-right,
+.swiper-container-cube .swiper-slide-shadow-top {
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.swiper-container-cube .swiper-cube-shadow {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
+  z-index: 0;
+}
+.swiper-container-flip {
+  overflow: visible;
+}
+.swiper-container-flip .swiper-slide {
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 1;
+}
+.swiper-container-flip .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+.swiper-container-flip .swiper-slide-active,
+.swiper-container-flip .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+.swiper-container-flip .swiper-slide-shadow-bottom,
+.swiper-container-flip .swiper-slide-shadow-left,
+.swiper-container-flip .swiper-slide-shadow-right,
+.swiper-container-flip .swiper-slide-shadow-top {
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+[is="component-atrium-calculator-mortgage"] .calculatorDescription {
+  text-align: center;
+
+  max-width: 522px;
+  margin: auto auto 24px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorDescription {
+    padding-top: 8px;
+    margin-bottom: 43px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInput {
+  flex: 0 0 89%;
+  width: 100%;
+  height: 32px;
+  min-height: 32px;
+  padding: 0 0 4px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #362f31;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none;
+  border-bottom: 1px solid #362f31;
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorInput::-webkit-input-placeholder {
+  color: #68747a;
+  font-weight: lighter;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorInput:-ms-input-placeholder {
+  color: #68747a;
+  font-weight: lighter;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorInput::-ms-input-placeholder {
+  color: #68747a;
+  font-weight: lighter;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInput::placeholder {
+  color: #68747a;
+  font-weight: lighter;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInput:focus,
+[is="component-atrium-calculator-mortgage"]
+  .calculatorInput:focus
+  + .calculatorTooltip {
+  border-bottom: 2px solid #362f31;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInput.warning,
+[is="component-atrium-calculator-mortgage"]
+  .calculatorInput.warning
+  + .calculatorTooltip {
+  border-color: #f3bc42;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInput.error,
+[is="component-atrium-calculator-mortgage"]
+  .calculatorInput.error
+  + .calculatorTooltip {
+  border-color: #bf0000;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputError {
+  background-color: #fff;
+  color: #bf0000;
+  font-size: 13px;
+  margin-bottom: 0;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputError {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 768px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputContainer {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputFields {
+  flex: 0 0 100%;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputFields {
+    flex: 0 0 50%;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputIllustration {
+  flex: 0 0 100%;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputIllustration {
+    min-width: 216px;
+    min-height: 160px;
+    height: auto;
+    margin-top: 32px;
+    flex: 0 0 50%;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputGroup {
+  margin-bottom: 32px;
+  padding-top: 8px;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f5f5f5;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputGroup {
+    margin-bottom: 38px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputGroup label {
+  flex: 0 0 100%;
+  font-size: 13px;
+  font-weight: 400;
+  color: #68747a;
+  padding-left: 16px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputGroup label {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputGroup input {
+  background-color: inherit;
+  padding-left: 16px;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputButton {
+  font-size: 16px;
+  width: 100%;
+  height: 48px;
+  padding: 16px 24px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputButton {
+    width: 90%;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputResult {
+  border-radius: 8px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputResult {
+    margin-top: 0;
+    margin-left: 50px;
+    padding: 32px 32px 16px 16px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputResultIcon {
+  display: inline-flex;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  padding: 16px;
+  margin-bottom: 12px;
+  vertical-align: middle;
+  background-color: #e5f0ea;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputResultIcon {
+    margin-bottom: 16px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputResultText p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorInputResultText p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 18px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputResultAmount {
+  margin-bottom: 16px;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputResultAmount p {
+  font-size: 14px;
+  color: #68747a;
+  margin-bottom: 0;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorInputResultAmount
+  p:last-child {
+  font-size: 32px;
+  font-weight: 500;
+  color: #362f31;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorInputResultAmount
+    p:last-child {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+@media (min-width: 1024px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorInputResultAmount
+    p:last-child {
+    margin-bottom: 42px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorInputResultButton {
+  height: 48px;
+  width: 100%;
+  font-size: 16px;
+  padding: 14px 16px 10px;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorTooltip {
+  flex: 0 0 11%;
+  border-bottom: 1px solid #362f31;
+  text-align: right;
+  font-size: 13px;
+  line-height: 19px;
+  padding-right: 16px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorTooltip {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon {
+  display: inline-flex;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon:after,
+[is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon:before {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon:focus:after,
+[is="component-atrium-calculator-mortgage"]
+  .calculatorTooltipIcon:focus:before {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  z-index: 2;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorTooltipIcon:hover:after,
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorTooltipIcon:hover:before {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    z-index: 2;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon:before {
+  border: 8px solid transparent;
+  border-bottom-color: #f5eee6;
+  top: 50%;
+  right: 0;
+  content: "";
+  transition: all 0.4s cubic-bezier(0.84, -0.18, 0.31, 1.26), opacity 0.65s 0.5s;
+  transform: scale(0.6) translateY(90%);
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorTooltipIcon:focus:before {
+  transition: all 0.4s cubic-bezier(0.84, -0.18, 0.31, 1.26) 0.2s;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorTooltipIcon:hover:before {
+    transition: all 0.4s cubic-bezier(0.84, -0.18, 0.31, 1.26) 0.2s;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon:after {
+  background: #f5eee6;
+  border-radius: 8px;
+  top: 150%;
+  right: -100%;
+  color: #362f31;
+  content: attr(data-tooltip);
+  text-align: left;
+  padding: 16px;
+  transition: all 0.4s cubic-bezier(0.84, -0.18, 0.31, 1.26) 0.2s;
+  transform: scale(0.6) translateY(-50%);
+  width: 40vh;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon:after {
+    right: -200%;
+    width: 30vh;
+  }
+}
+@media (min-width: 1024px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon:after {
+    width: 25vh;
+    padding: 8px 16px;
+  }
+}
+@media (min-width: 1280px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon:after {
+    width: 40vh;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorTooltipIcon:focus:after {
+  transition: all 0.4s cubic-bezier(0.84, -0.18, 0.31, 1.26);
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorTooltipIcon:hover:after {
+    transition: all 0.4s cubic-bezier(0.84, -0.18, 0.31, 1.26);
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultScrollDown {
+  display: flex;
+  padding-top: 32px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultScrollDown
+  .scrollDownArrow {
+  animation: bounce 2s infinite;
+  color: #f45f65;
+  margin: 0 auto;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultScrollDown
+  .scrollDownArrow
+  .atrium-icon {
+  width: 42px;
+  height: 42px;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultWrapper {
+  background-color: #fff;
+  margin: 0;
+  padding: 16px 0;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultWrapper {
+    padding: 0;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultContainer {
+  background-color: #f5f5f5;
+  border-top-right-radius: 50px;
+  padding: 32px 0;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultContainer {
+    border-top-right-radius: 100px;
+    padding: 64px 32px 0;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultContainer
+  .calculatorDropdown {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultContainer
+    .calculatorDropdown {
+    padding: 0;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultContainer
+  .calculatorDropdown
+  .calculatorTooltip {
+  padding-right: 0;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultDetails,
+[is="component-atrium-calculator-mortgage"] .calculatorResultHeader {
+  max-width: 768px;
+  margin: auto;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultDetails {
+  padding: 0 32px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultDetails {
+    padding: 0 0 32px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultHeader {
+  text-align: center;
+  margin-bottom: 55px;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultHeader h3,
+[is="component-atrium-calculator-mortgage"] .calculatorResultHeader p {
+  margin-bottom: 8px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultHeader h3,
+  [is="component-atrium-calculator-mortgage"] .calculatorResultHeader p {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultHeader h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultHeaderDesc {
+  max-width: 522px;
+  margin: auto;
+  padding: 0 32px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultHeaderDesc {
+    padding: 0;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultHeaderBox {
+  width: 90%;
+  background-color: #fff;
+  border-top-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  margin: 32px auto auto;
+  padding: 16px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultHeaderBox {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultHeaderBox {
+    width: 45%;
+    padding-top: 21px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultHeaderBox p {
+  color: #68747a;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultHeaderBoxAmount {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultHeaderBoxAmount {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultBreakdown {
+  flex: 0 0 100%;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultBreakdown {
+    flex: 0 0 50%;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdownContainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: flex-start;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdownContainer {
+    flex-wrap: nowrap;
+    margin-top: 53px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultBreakdownTotal {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultBreakdownTotal {
+    font-size: 18px;
+    margin-bottom: 8px;
+    padding: 0;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultBreakdownTotal p {
+  text-align: left;
+  margin-bottom: 0;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdownTotalAmount {
+  padding-right: 16px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  fieldset {
+  border: 1px solid #68747a;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  width: 93%;
+  display: inline-block;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  fieldset.open {
+  border-color: #362f31;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultBreakdown legend {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  color: #68747a;
+  display: block;
+  padding: 0 4px;
+  margin: 0 0 0 16px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .key4Interest {
+  background-color: #f5f5f5;
+  min-height: auto;
+  min-width: 90%;
+  padding: 0 4px 12px 8px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdown
+    .key4Interest {
+    padding: 0 10px 12px 16px;
+  }
+}
+@media (min-width: 1024px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdown
+    .key4Interest {
+    font-size: 18px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .key4InterestOptions {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  width: 79%;
+  max-width: 358.8785px;
+  margin-top: 1px;
+  padding: 8px 0;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdown
+    .key4InterestOptions {
+    width: 43vw;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .key4InterestOptions
+  .selected {
+  background-color: #f5f5f5;
+  font-weight: 500;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .key4InterestOptions
+  p {
+  border-top: 1px solid #f5f5f5;
+  margin-bottom: 0;
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  cursor: pointer;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .key4InterestOptions
+  p:last-child {
+  border-bottom: 1px solid #f5f5f5;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .key4InterestOptions
+  p:hover {
+  background-color: #f5f5f5;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .key4Interest
+  .chevron:after {
+  float: right;
+  margin-right: 5px;
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 10px;
+  position: relative;
+  vertical-align: middle;
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(-45deg);
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .key4Interest
+  .chevron-down:after {
+  top: 5px;
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(135deg);
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultBreakdownList {
+  margin-top: 16px;
+  border-top: 1px solid #d7d7d7;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultBreakdownList {
+    margin-top: 24px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInput {
+  padding: 16px 32px 16px 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #d7d7d7;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdown
+    .accordionInput {
+    padding: 14px 16px 14px 8px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInputTitleCalc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  outline: none;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInputTitleCalc:hover {
+  cursor: pointer;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInput
+  .list-icon {
+  display: block;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  margin-top: 7px;
+  margin-right: 12px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdown
+    .accordionInput
+    .list-icon {
+    height: 12px;
+    width: 12px;
+    margin-top: 5px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInputLabel {
+  align-content: flex-start;
+  flex-grow: 2;
+  color: #362f31;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdown
+    .accordionInputLabel {
+    font-size: 18px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInputText {
+  margin-top: 8px;
+  padding-left: 20px;
+  font-size: 13px;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdown
+    .accordionInputText {
+    padding-left: 24px;
+    font-size: 16px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInputCollapsed {
+  margin-top: 0;
+  transition: all 0.5s ease;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInput
+  .chevron {
+  font-size: 13px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdown
+    .accordionInput
+    .chevron {
+    font-size: 14px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInput
+  .chevron:after {
+  float: right;
+  margin-right: 5px;
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 10px;
+  margin-left: 15px;
+  position: relative;
+  vertical-align: middle;
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(-45deg);
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .accordionInput
+  .chevron-down:after {
+  top: 5px;
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(135deg);
+  margin-left: 15px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .calculatorTooltip {
+  border: none;
+  display: inline-block;
+  margin-left: 1px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"]
+    .calculatorResultBreakdown
+    .calculatorTooltip {
+    margin-left: 4px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .symbol-spring {
+  background: #8bbea1;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .symbol-sage {
+  background: #c6d9ce;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultBreakdown
+  .symbol-lake {
+  background: #92b8d6;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultPie {
+  padding: 0;
+  position: relative;
+  margin: -32px auto -48px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultPie {
+    margin-top: 8px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultPie .donutTitle {
+  position: absolute;
+  top: 41%;
+  right: 32%;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultPie .donutTitle {
+    top: 25%;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultPie
+  .donutTotalPriceAmt {
+  color: #362f31;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultPie
+  .donutTotalPriceText {
+  color: #68747a;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  max-width: 110px;
+  margin: auto;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultPie #tooltip {
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-width: 100px;
+  max-height: 64px;
+  z-index: 2;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultPie #tooltip p {
+  margin-bottom: 0;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultPie
+  #tooltip
+  .donut_arrow_box {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  display: block;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultPie
+  #tooltip
+  .left {
+  border-right: 20px solid #fff;
+  left: -13px;
+  top: 15px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultPie
+  #tooltip
+  .right {
+  border-left: 20px solid #fff;
+  right: -13px;
+  top: 15px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultPie
+  #tooltip
+  .tooltip-value {
+  color: #362f31;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultDonut {
+  cursor: pointer;
+  text-align: center;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultDonut {
+    text-align: right;
+    margin-top: -71px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultDetailsHeading {
+  text-align: center;
+  margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultDetailsHeading {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 48px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultDetailsEquity,
+[is="component-atrium-calculator-mortgage"] .calculatorResultDetailsIncome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultDetailsEquity,
+  [is="component-atrium-calculator-mortgage"] .calculatorResultDetailsIncome {
+    flex-wrap: nowrap;
+    margin-bottom: 72px;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultChart,
+[is="component-atrium-calculator-mortgage"] .calculatorResultChartDesc {
+  flex: 0 0 100%;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultChart,
+  [is="component-atrium-calculator-mortgage"] .calculatorResultChartDesc {
+    flex: 0 0 50%;
+  }
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultChartDescIcon {
+  display: inline-flex;
+  height: 16px;
+  width: 16px;
+  vertical-align: inherit;
+  border-radius: 50%;
+  color: #fff;
+  padding: 2px;
+  margin-left: 8px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChartDescIcon.successResult {
+  background-color: #8bbea1;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChartDescIcon.equityShortage,
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChartDescIcon.incomeShortage {
+  background-color: #f4d07c;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultChartDesc h4 {
+  margin-bottom: 8px;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultChartDesc p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultChartDesc p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChartDesc
+  .equityShortage
+  p,
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChartDesc
+  .incomeShortage
+  p {
+  font-weight: 500;
+  font-size: 16px;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultChart {
+  padding-bottom: 24px;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorResultChart {
+    padding-right: 24px;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChart
+  .amountBubble {
+  position: relative;
+  z-index: 1;
+  height: 32px;
+  color: #362f31;
+  padding: 6px 11px 6px 24px;
+  min-width: 20%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  border-radius: 2px;
+  margin: auto auto 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChart
+  .amountBubble:after {
+  position: relative;
+  border-style: solid;
+  border-width: 8px;
+  top: 150%;
+  right: 48%;
+  content: "";
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChart
+  .amountBubble.success {
+  background-color: #c6d9ce;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChart
+  .amountBubble.success:after {
+  border-color: #c6d9ce transparent transparent;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChart
+  .amountBubble.warning {
+  background-color: #f4e2b7;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChart
+  .amountBubble.warning:after {
+  border-color: #f4e2b7 transparent transparent;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultChart .progress {
+  background-color: #f4d07c;
+  border-radius: 2px;
+  height: 100%;
+  margin-right: 4px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChart
+  .progressBar {
+  display: flex;
+  height: 8px;
+  background-color: transparent;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultChart .filler {
+  width: 4px;
+  height: 100%;
+  border-radius: 2px;
+  background-color: #8bbea1;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultChart p {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 0;
+  flex: 0 0 100%;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorResultChart p span {
+  color: #68747a;
+  font-size: 13px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultChart
+  p
+  span:nth-child(2) {
+  width: 70%;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultDetailsIncome
+  .progress {
+  margin-right: 0;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultDetailsIncome
+  .filler {
+  margin-right: 4px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorResultDetailsIncome
+  p
+  span:nth-child(2) {
+  width: 50%;
+}
+[is="component-atrium-calculator-mortgage"]
+  .calculatorCta
+  .atriumComponentContentWrapper {
+  padding-top: 20px;
+}
+[is="component-atrium-calculator-mortgage"] .calculatorDisclaimer {
+  padding: 32px;
+  border-bottom: 1px solid #a6b7c0;
+}
+@media (min-width: 768px) {
+  [is="component-atrium-calculator-mortgage"] .calculatorDisclaimer {
+    padding: 32px 0;
+  }
+}
+[is="component-atrium-calculator-mortgage"]
+  .warning
+  .calculatorInputResultIcon {
+  background-color: #fff3d8;
+}
+[is="component-atrium-calculator-mortgage"]
+  .warning
+  .calculatorInputResultText
+  p {
+  margin-bottom: 8px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .warning
+  .calculatorInputResultAmount
+  p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .warning
+  .calculatorInputResult
+  .equity
+  p {
+  color: #362f31;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+[is="component-atrium-calculator-mortgage"]
+  .warning
+  .calculatorInputResult
+  .income
+  p:first-child {
+  color: #362f31;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+[is="component-atrium-calculator-mortgage"] ul {
+  list-style: none;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+[is="component-atrium-calculator-mortgage"] ul li:before {
+  content: "â– ";
+  color: #8bbea1;
+  display: inline-block;
+  width: 24px;
+  margin-left: -16px;
+}
+[is="component-atrium-calculator-mortgage"] .small-text {
+  font-size: 11px;
+  line-height: 15px;
+  color: #68747a;
+}
+[is="component-atrium-calculator-mortgage"] .hidden {
+  display: none;
+}
